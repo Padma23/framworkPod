@@ -1,0 +1,1638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95197C8B1EDEE57B009AC14D /* swiftFrameworkTrial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95197C811EDEE57B009AC14D /* swiftFrameworkTrial.framework */; };
+		95197C901EDEE57B009AC14D /* swiftFrameworkTrialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95197C8F1EDEE57B009AC14D /* swiftFrameworkTrialTests.swift */; };
+		95197C921EDEE57B009AC14D /* swiftFrameworkTrial.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197C841EDEE57B009AC14D /* swiftFrameworkTrial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DBB1EDEE5C1009AC14D /* Animation.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197C9C1EDEE5C1009AC14D /* Animation.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DBC1EDEE5C1009AC14D /* Animation.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197C9D1EDEE5C1009AC14D /* Animation.pbobjc.m */; };
+		95197DBD1EDEE5C1009AC14D /* Animationdata.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197C9E1EDEE5C1009AC14D /* Animationdata.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DBE1EDEE5C1009AC14D /* Animationdata.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197C9F1EDEE5C1009AC14D /* Animationdata.pbobjc.m */; };
+		95197DBF1EDEE5C1009AC14D /* Animationlist.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CA01EDEE5C1009AC14D /* Animationlist.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DC01EDEE5C1009AC14D /* Animationlist.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CA11EDEE5C1009AC14D /* Animationlist.pbobjc.m */; };
+		95197DC11EDEE5C1009AC14D /* Area3Dchart.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CA21EDEE5C1009AC14D /* Area3Dchart.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DC21EDEE5C1009AC14D /* Area3Dchart.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CA31EDEE5C1009AC14D /* Area3Dchart.pbobjc.m */; };
+		95197DC31EDEE5C1009AC14D /* Areachart.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CA41EDEE5C1009AC14D /* Areachart.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DC41EDEE5C1009AC14D /* Areachart.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CA51EDEE5C1009AC14D /* Areachart.pbobjc.m */; };
+		95197DC51EDEE5C1009AC14D /* Areachartdetails.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CA61EDEE5C1009AC14D /* Areachartdetails.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DC61EDEE5C1009AC14D /* Areachartdetails.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CA71EDEE5C1009AC14D /* Areachartdetails.pbobjc.m */; };
+		95197DC71EDEE5C1009AC14D /* Areachartseries.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CA81EDEE5C1009AC14D /* Areachartseries.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DC81EDEE5C1009AC14D /* Areachartseries.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CA91EDEE5C1009AC14D /* Areachartseries.pbobjc.m */; };
+		95197DC91EDEE5C1009AC14D /* Background.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CAA1EDEE5C1009AC14D /* Background.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DCA1EDEE5C1009AC14D /* Background.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CAB1EDEE5C1009AC14D /* Background.pbobjc.m */; };
+		95197DCB1EDEE5C1009AC14D /* Bar3Dchart.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CAC1EDEE5C1009AC14D /* Bar3Dchart.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DCC1EDEE5C1009AC14D /* Bar3Dchart.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CAD1EDEE5C1009AC14D /* Bar3Dchart.pbobjc.m */; };
+		95197DCD1EDEE5C1009AC14D /* Barchart.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CAE1EDEE5C1009AC14D /* Barchart.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DCE1EDEE5C1009AC14D /* Barchart.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CAF1EDEE5C1009AC14D /* Barchart.pbobjc.m */; };
+		95197DCF1EDEE5C1009AC14D /* Barchartdetails.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CB01EDEE5C1009AC14D /* Barchartdetails.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DD01EDEE5C1009AC14D /* Barchartdetails.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CB11EDEE5C1009AC14D /* Barchartdetails.pbobjc.m */; };
+		95197DD11EDEE5C1009AC14D /* Bubblechart.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CB21EDEE5C1009AC14D /* Bubblechart.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DD21EDEE5C1009AC14D /* Bubblechart.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CB31EDEE5C1009AC14D /* Bubblechart.pbobjc.m */; };
+		95197DD31EDEE5C1009AC14D /* Category.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CB41EDEE5C1009AC14D /* Category.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DD41EDEE5C1009AC14D /* Category.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CB51EDEE5C1009AC14D /* Category.pbobjc.m */; };
+		95197DD51EDEE5C1009AC14D /* Chart.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CB61EDEE5C1009AC14D /* Chart.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DD61EDEE5C1009AC14D /* Chart.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CB71EDEE5C1009AC14D /* Chart.pbobjc.m */; };
+		95197DD71EDEE5C1009AC14D /* Chartaxis.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CB81EDEE5C1009AC14D /* Chartaxis.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DD81EDEE5C1009AC14D /* Chartaxis.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CB91EDEE5C1009AC14D /* Chartaxis.pbobjc.m */; };
+		95197DD91EDEE5C1009AC14D /* Chartline.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CBA1EDEE5C1009AC14D /* Chartline.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DDA1EDEE5C1009AC14D /* Chartline.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CBB1EDEE5C1009AC14D /* Chartline.pbobjc.m */; };
+		95197DDB1EDEE5C1009AC14D /* Chartshape.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CBC1EDEE5C1009AC14D /* Chartshape.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DDC1EDEE5C1009AC14D /* Chartshape.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CBD1EDEE5C1009AC14D /* Chartshape.pbobjc.m */; };
+		95197DDD1EDEE5C1009AC14D /* Chartstyle.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CBE1EDEE5C1009AC14D /* Chartstyle.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DDE1EDEE5C1009AC14D /* Chartstyle.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CBF1EDEE5C1009AC14D /* Chartstyle.pbobjc.m */; };
+		95197DDF1EDEE5C1009AC14D /* Chartstyles.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CC01EDEE5C1009AC14D /* Chartstyles.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DE01EDEE5C1009AC14D /* Chartstyles.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CC11EDEE5C1009AC14D /* Chartstyles.pbobjc.m */; };
+		95197DE11EDEE5C1009AC14D /* Charttext.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CC21EDEE5C1009AC14D /* Charttext.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DE21EDEE5C1009AC14D /* Charttext.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CC31EDEE5C1009AC14D /* Charttext.pbobjc.m */; };
+		95197DE31EDEE5C1009AC14D /* Clipboard.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CC41EDEE5C1009AC14D /* Clipboard.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DE41EDEE5C1009AC14D /* Clipboard.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CC51EDEE5C1009AC14D /* Clipboard.pbobjc.m */; };
+		95197DE51EDEE5C1009AC14D /* Color.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CC61EDEE5C1009AC14D /* Color.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DE61EDEE5C1009AC14D /* Color.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CC71EDEE5C1009AC14D /* Color.pbobjc.m */; };
+		95197DE71EDEE5C1009AC14D /* Colormap.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CC81EDEE5C1009AC14D /* Colormap.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DE81EDEE5C1009AC14D /* Colormap.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CC91EDEE5C1009AC14D /* Colormap.pbobjc.m */; };
+		95197DE91EDEE5C1009AC14D /* Colorscheme.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CCA1EDEE5C1009AC14D /* Colorscheme.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DEA1EDEE5C1009AC14D /* Colorscheme.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CCB1EDEE5C1009AC14D /* Colorscheme.pbobjc.m */; };
+		95197DEB1EDEE5C1009AC14D /* Colortweaks.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CCC1EDEE5C1009AC14D /* Colortweaks.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DEC1EDEE5C1009AC14D /* Colortweaks.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CCD1EDEE5C1009AC14D /* Colortweaks.pbobjc.m */; };
+		95197DED1EDEE5C1009AC14D /* Connector.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CCE1EDEE5C1009AC14D /* Connector.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DEE1EDEE5C1009AC14D /* Connector.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CCF1EDEE5C1009AC14D /* Connector.pbobjc.m */; };
+		95197DEF1EDEE5C1009AC14D /* Customfile.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CD01EDEE5C1009AC14D /* Customfile.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DF01EDEE5C1009AC14D /* Customfile.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CD11EDEE5C1009AC14D /* Customfile.pbobjc.m */; };
+		95197DF11EDEE5C1009AC14D /* Customgeometry.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CD21EDEE5C1009AC14D /* Customgeometry.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DF21EDEE5C1009AC14D /* Customgeometry.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CD31EDEE5C1009AC14D /* Customgeometry.pbobjc.m */; };
+		95197DF31EDEE5C1009AC14D /* Datalabels.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CD41EDEE5C1009AC14D /* Datalabels.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DF41EDEE5C1009AC14D /* Datalabels.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CD51EDEE5C1009AC14D /* Datalabels.pbobjc.m */; };
+		95197DF51EDEE5C1009AC14D /* Datamarker.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CD61EDEE5C1009AC14D /* Datamarker.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DF61EDEE5C1009AC14D /* Datamarker.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CD71EDEE5C1009AC14D /* Datamarker.pbobjc.m */; };
+		95197DF71EDEE5C1009AC14D /* Datapoint.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CD81EDEE5C1009AC14D /* Datapoint.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DF81EDEE5C1009AC14D /* Datapoint.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CD91EDEE5C1009AC14D /* Datapoint.pbobjc.m */; };
+		95197DF91EDEE5C1009AC14D /* Datetimefield.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CDA1EDEE5C1009AC14D /* Datetimefield.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DFA1EDEE5C1009AC14D /* Datetimefield.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CDB1EDEE5C1009AC14D /* Datetimefield.pbobjc.m */; };
+		95197DFB1EDEE5C1009AC14D /* Dimension.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CDC1EDEE5C1009AC14D /* Dimension.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DFC1EDEE5C1009AC14D /* Dimension.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CDD1EDEE5C1009AC14D /* Dimension.pbobjc.m */; };
+		95197DFD1EDEE5C1009AC14D /* Displayanimation.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CDE1EDEE5C1009AC14D /* Displayanimation.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197DFE1EDEE5C1009AC14D /* Displayanimation.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CDF1EDEE5C1009AC14D /* Displayanimation.pbobjc.m */; };
+		95197DFF1EDEE5C1009AC14D /* Document.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CE01EDEE5C1009AC14D /* Document.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E001EDEE5C1009AC14D /* Document.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CE11EDEE5C1009AC14D /* Document.pbobjc.m */; };
+		95197E011EDEE5C1009AC14D /* Documentdata.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CE21EDEE5C1009AC14D /* Documentdata.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E021EDEE5C1009AC14D /* Documentdata.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CE31EDEE5C1009AC14D /* Documentdata.pbobjc.m */; };
+		95197E031EDEE5C1009AC14D /* Doughnutchart.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CE41EDEE5C1009AC14D /* Doughnutchart.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E041EDEE5C1009AC14D /* Doughnutchart.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CE51EDEE5C1009AC14D /* Doughnutchart.pbobjc.m */; };
+		95197E051EDEE5C1009AC14D /* Editorcompatible.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CE61EDEE5C1009AC14D /* Editorcompatible.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E061EDEE5C1009AC14D /* Editorcompatible.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CE71EDEE5C1009AC14D /* Editorcompatible.pbobjc.m */; };
+		95197E071EDEE5C1009AC14D /* Effects.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CE81EDEE5C1009AC14D /* Effects.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E081EDEE5C1009AC14D /* Effects.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CE91EDEE5C1009AC14D /* Effects.pbobjc.m */; };
+		95197E091EDEE5C1009AC14D /* Fill.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CEA1EDEE5C1009AC14D /* Fill.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E0A1EDEE5C1009AC14D /* Fill.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CEB1EDEE5C1009AC14D /* Fill.pbobjc.m */; };
+		95197E0B1EDEE5C1009AC14D /* Fillscheme.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CEC1EDEE5C1009AC14D /* Fillscheme.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E0C1EDEE5C1009AC14D /* Fillscheme.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CED1EDEE5C1009AC14D /* Fillscheme.pbobjc.m */; };
+		95197E0D1EDEE5C1009AC14D /* Font.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CEE1EDEE5C1009AC14D /* Font.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E0E1EDEE5C1009AC14D /* Font.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CEF1EDEE5C1009AC14D /* Font.pbobjc.m */; };
+		95197E0F1EDEE5C1009AC14D /* Fontref.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CF01EDEE5C1009AC14D /* Fontref.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E101EDEE5C1009AC14D /* Fontref.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CF11EDEE5C1009AC14D /* Fontref.pbobjc.m */; };
+		95197E111EDEE5C1009AC14D /* Fontreference.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CF21EDEE5C1009AC14D /* Fontreference.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E121EDEE5C1009AC14D /* Fontreference.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CF31EDEE5C1009AC14D /* Fontreference.pbobjc.m */; };
+		95197E131EDEE5C1009AC14D /* Fontscheme.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CF41EDEE5C1009AC14D /* Fontscheme.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E141EDEE5C1009AC14D /* Fontscheme.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CF51EDEE5C1009AC14D /* Fontscheme.pbobjc.m */; };
+		95197E151EDEE5C1009AC14D /* Graphicframe.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CF61EDEE5C1009AC14D /* Graphicframe.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E161EDEE5C1009AC14D /* Graphicframe.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CF71EDEE5C1009AC14D /* Graphicframe.pbobjc.m */; };
+		95197E171EDEE5C1009AC14D /* Grids.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CF81EDEE5C1009AC14D /* Grids.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E181EDEE5C1009AC14D /* Grids.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CF91EDEE5C1009AC14D /* Grids.pbobjc.m */; };
+		95197E191EDEE5C1009AC14D /* Guide.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CFA1EDEE5C1009AC14D /* Guide.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E1A1EDEE5C1009AC14D /* Guide.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CFB1EDEE5C1009AC14D /* Guide.pbobjc.m */; };
+		95197E1B1EDEE5C1009AC14D /* Hidemaster.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CFC1EDEE5C1009AC14D /* Hidemaster.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E1C1EDEE5C1009AC14D /* Hidemaster.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CFD1EDEE5C1009AC14D /* Hidemaster.pbobjc.m */; };
+		95197E1D1EDEE5C1009AC14D /* Horizontalaligntype.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197CFE1EDEE5C1009AC14D /* Horizontalaligntype.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E1E1EDEE5C1009AC14D /* Horizontalaligntype.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197CFF1EDEE5C1009AC14D /* Horizontalaligntype.pbobjc.m */; };
+		95197E1F1EDEE5C1009AC14D /* Hyperlink.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D001EDEE5C1009AC14D /* Hyperlink.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E201EDEE5C1009AC14D /* Hyperlink.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D011EDEE5C1009AC14D /* Hyperlink.pbobjc.m */; };
+		95197E211EDEE5C1009AC14D /* Line3Dchart.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D021EDEE5C1009AC14D /* Line3Dchart.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E221EDEE5C1009AC14D /* Line3Dchart.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D031EDEE5C1009AC14D /* Line3Dchart.pbobjc.m */; };
+		95197E231EDEE5C1009AC14D /* Linechart.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D041EDEE5C1009AC14D /* Linechart.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E241EDEE5C1009AC14D /* Linechart.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D051EDEE5C1009AC14D /* Linechart.pbobjc.m */; };
+		95197E251EDEE5C1009AC14D /* Linechartdetails.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D061EDEE5C1009AC14D /* Linechartdetails.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E261EDEE5C1009AC14D /* Linechartdetails.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D071EDEE5C1009AC14D /* Linechartdetails.pbobjc.m */; };
+		95197E271EDEE5C1009AC14D /* Linechartseries.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D081EDEE5C1009AC14D /* Linechartseries.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E281EDEE5C1009AC14D /* Linechartseries.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D091EDEE5C1009AC14D /* Linechartseries.pbobjc.m */; };
+		95197E291EDEE5C1009AC14D /* Linetype.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D0A1EDEE5C1009AC14D /* Linetype.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E2A1EDEE5C1009AC14D /* Linetype.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D0B1EDEE5C1009AC14D /* Linetype.pbobjc.m */; };
+		95197E2B1EDEE5C1009AC14D /* Locks.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D0C1EDEE5C1009AC14D /* Locks.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E2C1EDEE5C1009AC14D /* Locks.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D0D1EDEE5C1009AC14D /* Locks.pbobjc.m */; };
+		95197E2D1EDEE5C1009AC14D /* Manuallayout.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D0E1EDEE5C1009AC14D /* Manuallayout.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E2E1EDEE5C1009AC14D /* Manuallayout.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D0F1EDEE5C1009AC14D /* Manuallayout.pbobjc.m */; };
+		95197E2F1EDEE5C1009AC14D /* Margin.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D101EDEE5C1009AC14D /* Margin.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E301EDEE5C1009AC14D /* Margin.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D111EDEE5C1009AC14D /* Margin.pbobjc.m */; };
+		95197E311EDEE5C1009AC14D /* Marker.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D121EDEE5C1009AC14D /* Marker.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E321EDEE5C1009AC14D /* Marker.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D131EDEE5C1009AC14D /* Marker.pbobjc.m */; };
+		95197E331EDEE5C1009AC14D /* Master.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D141EDEE5C1009AC14D /* Master.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E341EDEE5C1009AC14D /* Master.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D151EDEE5C1009AC14D /* Master.pbobjc.m */; };
+		95197E351EDEE5C1009AC14D /* Nonvisualconnectordrawingprops.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D161EDEE5C1009AC14D /* Nonvisualconnectordrawingprops.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E361EDEE5C1009AC14D /* Nonvisualconnectordrawingprops.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D171EDEE5C1009AC14D /* Nonvisualconnectordrawingprops.pbobjc.m */; };
+		95197E371EDEE5C1009AC14D /* Nonvisualconnectorprops.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D181EDEE5C1009AC14D /* Nonvisualconnectorprops.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E381EDEE5C1009AC14D /* Nonvisualconnectorprops.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D191EDEE5C1009AC14D /* Nonvisualconnectorprops.pbobjc.m */; };
+		95197E391EDEE5C1009AC14D /* Nonvisualdrawingprops.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D1A1EDEE5C1009AC14D /* Nonvisualdrawingprops.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E3A1EDEE5C1009AC14D /* Nonvisualdrawingprops.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D1B1EDEE5C1009AC14D /* Nonvisualdrawingprops.pbobjc.m */; };
+		95197E3B1EDEE5C1009AC14D /* Nonvisualgroupshapedrawingprops.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D1C1EDEE5C1009AC14D /* Nonvisualgroupshapedrawingprops.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E3C1EDEE5C1009AC14D /* Nonvisualgroupshapedrawingprops.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D1D1EDEE5C1009AC14D /* Nonvisualgroupshapedrawingprops.pbobjc.m */; };
+		95197E3D1EDEE5C1009AC14D /* Nonvisualgroupshapeprops.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D1E1EDEE5C1009AC14D /* Nonvisualgroupshapeprops.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E3E1EDEE5C1009AC14D /* Nonvisualgroupshapeprops.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D1F1EDEE5C1009AC14D /* Nonvisualgroupshapeprops.pbobjc.m */; };
+		95197E3F1EDEE5C1009AC14D /* Nonvisualpicturedrawingprops.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D201EDEE5C1009AC14D /* Nonvisualpicturedrawingprops.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E401EDEE5C1009AC14D /* Nonvisualpicturedrawingprops.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D211EDEE5C1009AC14D /* Nonvisualpicturedrawingprops.pbobjc.m */; };
+		95197E411EDEE5C1009AC14D /* Nonvisualpictureprops.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D221EDEE5C1009AC14D /* Nonvisualpictureprops.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E421EDEE5C1009AC14D /* Nonvisualpictureprops.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D231EDEE5C1009AC14D /* Nonvisualpictureprops.pbobjc.m */; };
+		95197E431EDEE5C1009AC14D /* Nonvisualprops.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D241EDEE5C1009AC14D /* Nonvisualprops.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E441EDEE5C1009AC14D /* Nonvisualprops.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D251EDEE5C1009AC14D /* Nonvisualprops.pbobjc.m */; };
+		95197E451EDEE5C1009AC14D /* Nonvisualshapedrawingprops.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D261EDEE5C1009AC14D /* Nonvisualshapedrawingprops.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E461EDEE5C1009AC14D /* Nonvisualshapedrawingprops.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D271EDEE5C1009AC14D /* Nonvisualshapedrawingprops.pbobjc.m */; };
+		95197E471EDEE5C1009AC14D /* Nonvisualshapeprops.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D281EDEE5C1009AC14D /* Nonvisualshapeprops.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E481EDEE5C1009AC14D /* Nonvisualshapeprops.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D291EDEE5C1009AC14D /* Nonvisualshapeprops.pbobjc.m */; };
+		95197E491EDEE5C1009AC14D /* Numberreference.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D2A1EDEE5C1009AC14D /* Numberreference.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E4A1EDEE5C1009AC14D /* Numberreference.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D2B1EDEE5C1009AC14D /* Numberreference.pbobjc.m */; };
+		95197E4B1EDEE5C1009AC14D /* Offset.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D2C1EDEE5C1009AC14D /* Offset.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E4C1EDEE5C1009AC14D /* Offset.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D2D1EDEE5C1009AC14D /* Offset.pbobjc.m */; };
+		95197E4D1EDEE5C1009AC14D /* Pagesetup.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D2E1EDEE5C1009AC14D /* Pagesetup.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E4E1EDEE5C1009AC14D /* Pagesetup.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D2F1EDEE5C1009AC14D /* Pagesetup.pbobjc.m */; };
+		95197E4F1EDEE5C1009AC14D /* Paragraph.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D301EDEE5C1009AC14D /* Paragraph.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E501EDEE5C1009AC14D /* Paragraph.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D311EDEE5C1009AC14D /* Paragraph.pbobjc.m */; };
+		95197E511EDEE5C1009AC14D /* Parastyle.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D321EDEE5C1009AC14D /* Parastyle.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E521EDEE5C1009AC14D /* Parastyle.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D331EDEE5C1009AC14D /* Parastyle.pbobjc.m */; };
+		95197E531EDEE5C1009AC14D /* Pathobject.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D341EDEE5C1009AC14D /* Pathobject.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E541EDEE5C1009AC14D /* Pathobject.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D351EDEE5C1009AC14D /* Pathobject.pbobjc.m */; };
+		95197E551EDEE5C1009AC14D /* Picproperties.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D361EDEE5C1009AC14D /* Picproperties.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E561EDEE5C1009AC14D /* Picproperties.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D371EDEE5C1009AC14D /* Picproperties.pbobjc.m */; };
+		95197E571EDEE5C1009AC14D /* Picture.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D381EDEE5C1009AC14D /* Picture.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E581EDEE5C1009AC14D /* Picture.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D391EDEE5C1009AC14D /* Picture.pbobjc.m */; };
+		95197E591EDEE5C1009AC14D /* Pictureproperties.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D3A1EDEE5C1009AC14D /* Pictureproperties.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E5A1EDEE5C1009AC14D /* Pictureproperties.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D3B1EDEE5C1009AC14D /* Pictureproperties.pbobjc.m */; };
+		95197E5B1EDEE5C1009AC14D /* Picturevalue.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D3C1EDEE5C1009AC14D /* Picturevalue.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E5C1EDEE5C1009AC14D /* Picturevalue.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D3D1EDEE5C1009AC14D /* Picturevalue.pbobjc.m */; };
+		95197E5D1EDEE5C1009AC14D /* Pie3Dchart.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D3E1EDEE5C1009AC14D /* Pie3Dchart.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E5E1EDEE5C1009AC14D /* Pie3Dchart.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D3F1EDEE5C1009AC14D /* Pie3Dchart.pbobjc.m */; };
+		95197E5F1EDEE5C1009AC14D /* Piechart.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D401EDEE5C1009AC14D /* Piechart.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E601EDEE5C1009AC14D /* Piechart.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D411EDEE5C1009AC14D /* Piechart.pbobjc.m */; };
+		95197E611EDEE5C1009AC14D /* Piechartdetails.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D421EDEE5C1009AC14D /* Piechartdetails.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E621EDEE5C1009AC14D /* Piechartdetails.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D431EDEE5C1009AC14D /* Piechartdetails.pbobjc.m */; };
+		95197E631EDEE5C1009AC14D /* Placeholder.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D441EDEE5C1009AC14D /* Placeholder.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E641EDEE5C1009AC14D /* Placeholder.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D451EDEE5C1009AC14D /* Placeholder.pbobjc.m */; };
+		95197E651EDEE5C1009AC14D /* Plotarea.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D461EDEE5C1009AC14D /* Plotarea.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E661EDEE5C1009AC14D /* Plotarea.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D471EDEE5C1009AC14D /* Plotarea.pbobjc.m */; };
+		95197E671EDEE5C1009AC14D /* Portion.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D481EDEE5C1009AC14D /* Portion.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E681EDEE5C1009AC14D /* Portion.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D491EDEE5C1009AC14D /* Portion.pbobjc.m */; };
+		95197E691EDEE5C1009AC14D /* Portionprops.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D4A1EDEE5C1009AC14D /* Portionprops.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E6A1EDEE5C1009AC14D /* Portionprops.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D4B1EDEE5C1009AC14D /* Portionprops.pbobjc.m */; };
+		95197E6B1EDEE5C1009AC14D /* Position.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D4C1EDEE5C1009AC14D /* Position.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E6C1EDEE5C1009AC14D /* Position.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D4D1EDEE5C1009AC14D /* Position.pbobjc.m */; };
+		95197E6D1EDEE5C1009AC14D /* Positionelement.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D4E1EDEE5C1009AC14D /* Positionelement.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E6E1EDEE5C1009AC14D /* Positionelement.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D4F1EDEE5C1009AC14D /* Positionelement.pbobjc.m */; };
+		95197E6F1EDEE5C1009AC14D /* Preset.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D501EDEE5C1009AC14D /* Preset.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E701EDEE5C1009AC14D /* Preset.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D511EDEE5C1009AC14D /* Preset.pbobjc.m */; };
+		95197E711EDEE5C1009AC14D /* Preseteffects.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D521EDEE5C1009AC14D /* Preseteffects.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E721EDEE5C1009AC14D /* Preseteffects.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D531EDEE5C1009AC14D /* Preseteffects.pbobjc.m */; };
+		95197E731EDEE5C1009AC14D /* Presetprops.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D541EDEE5C1009AC14D /* Presetprops.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E741EDEE5C1009AC14D /* Presetprops.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D551EDEE5C1009AC14D /* Presetprops.pbobjc.m */; };
+		95197E751EDEE5C1009AC14D /* Presetshape.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D561EDEE5C1009AC14D /* Presetshape.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E761EDEE5C1009AC14D /* Presetshape.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D571EDEE5C1009AC14D /* Presetshape.pbobjc.m */; };
+		95197E771EDEE5C1009AC14D /* Presetshapegeometry.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D581EDEE5C1009AC14D /* Presetshapegeometry.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E781EDEE5C1009AC14D /* Presetshapegeometry.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D591EDEE5C1009AC14D /* Presetshapegeometry.pbobjc.m */; };
+		95197E791EDEE5C1009AC14D /* Properties.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D5A1EDEE5C1009AC14D /* Properties.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E7A1EDEE5C1009AC14D /* Properties.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D5B1EDEE5C1009AC14D /* Properties.pbobjc.m */; };
+		95197E7B1EDEE5C1009AC14D /* Protofielddefinition.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D5C1EDEE5C1009AC14D /* Protofielddefinition.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E7C1EDEE5C1009AC14D /* Protofielddefinition.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D5D1EDEE5C1009AC14D /* Protofielddefinition.pbobjc.m */; };
+		95197E7D1EDEE5C1009AC14D /* Reference.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D5E1EDEE5C1009AC14D /* Reference.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E7E1EDEE5C1009AC14D /* Reference.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D5F1EDEE5C1009AC14D /* Reference.pbobjc.m */; };
+		95197E7F1EDEE5C1009AC14D /* Relationship.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D601EDEE5C1009AC14D /* Relationship.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E801EDEE5C1009AC14D /* Relationship.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D611EDEE5C1009AC14D /* Relationship.pbobjc.m */; };
+		95197E811EDEE5C1009AC14D /* Representivepiechart.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D621EDEE5C1009AC14D /* Representivepiechart.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E821EDEE5C1009AC14D /* Representivepiechart.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D631EDEE5C1009AC14D /* Representivepiechart.pbobjc.m */; };
+		95197E831EDEE5C1009AC14D /* Scale.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D641EDEE5C1009AC14D /* Scale.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E841EDEE5C1009AC14D /* Scale.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D651EDEE5C1009AC14D /* Scale.pbobjc.m */; };
+		95197E851EDEE5C1009AC14D /* Scatterchart.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D661EDEE5C1009AC14D /* Scatterchart.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E861EDEE5C1009AC14D /* Scatterchart.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D671EDEE5C1009AC14D /* Scatterchart.pbobjc.m */; };
+		95197E871EDEE5C1009AC14D /* Scatterchartdetails.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D681EDEE5C1009AC14D /* Scatterchartdetails.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E881EDEE5C1009AC14D /* Scatterchartdetails.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D691EDEE5C1009AC14D /* Scatterchartdetails.pbobjc.m */; };
+		95197E891EDEE5C1009AC14D /* Seriesdetails.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D6A1EDEE5C1009AC14D /* Seriesdetails.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E8A1EDEE5C1009AC14D /* Seriesdetails.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D6B1EDEE5C1009AC14D /* Seriesdetails.pbobjc.m */; };
+		95197E8B1EDEE5C1009AC14D /* Seriestext.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D6C1EDEE5C1009AC14D /* Seriestext.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E8C1EDEE5C1009AC14D /* Seriestext.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D6D1EDEE5C1009AC14D /* Seriestext.pbobjc.m */; };
+		95197E8D1EDEE5C1009AC14D /* Seriesvalue.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D6E1EDEE5C1009AC14D /* Seriesvalue.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E8E1EDEE5C1009AC14D /* Seriesvalue.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D6F1EDEE5C1009AC14D /* Seriesvalue.pbobjc.m */; };
+		95197E8F1EDEE5C1009AC14D /* Shape.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D701EDEE5C1009AC14D /* Shape.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E901EDEE5C1009AC14D /* Shape.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D711EDEE5C1009AC14D /* Shape.pbobjc.m */; };
+		95197E911EDEE5C1009AC14D /* Shapeclips.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D721EDEE5C1009AC14D /* Shapeclips.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E921EDEE5C1009AC14D /* Shapeclips.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D731EDEE5C1009AC14D /* Shapeclips.pbobjc.m */; };
+		95197E931EDEE5C1009AC14D /* Shapegeometry.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D741EDEE5C1009AC14D /* Shapegeometry.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E941EDEE5C1009AC14D /* Shapegeometry.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D751EDEE5C1009AC14D /* Shapegeometry.pbobjc.m */; };
+		95197E951EDEE5C1009AC14D /* Shapenodetype.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D761EDEE5C1009AC14D /* Shapenodetype.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E961EDEE5C1009AC14D /* Shapenodetype.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D771EDEE5C1009AC14D /* Shapenodetype.pbobjc.m */; };
+		95197E971EDEE5C1009AC14D /* Shapeobject.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D781EDEE5C1009AC14D /* Shapeobject.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E981EDEE5C1009AC14D /* Shapeobject.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D791EDEE5C1009AC14D /* Shapeobject.pbobjc.m */; };
+		95197E991EDEE5C1009AC14D /* Collaboration.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D7B1EDEE5C1009AC14D /* Collaboration.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E9A1EDEE5C1009AC14D /* Collaboration.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D7C1EDEE5C1009AC14D /* Collaboration.pbobjc.m */; };
+		95197E9B1EDEE5C1009AC14D /* Presetshapearray.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D7D1EDEE5C1009AC14D /* Presetshapearray.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E9C1EDEE5C1009AC14D /* Presetshapearray.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D7E1EDEE5C1009AC14D /* Presetshapearray.pbobjc.m */; };
+		95197E9D1EDEE5C1009AC14D /* Showcast.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D7F1EDEE5C1009AC14D /* Showcast.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197E9E1EDEE5C1009AC14D /* Showcast.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D801EDEE5C1009AC14D /* Showcast.pbobjc.m */; };
+		95197E9F1EDEE5C1009AC14D /* Slide.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D811EDEE5C1009AC14D /* Slide.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EA01EDEE5C1009AC14D /* Slide.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D821EDEE5C1009AC14D /* Slide.pbobjc.m */; };
+		95197EA11EDEE5C1009AC14D /* Slidedata.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D831EDEE5C1009AC14D /* Slidedata.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EA21EDEE5C1009AC14D /* Slidedata.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D841EDEE5C1009AC14D /* Slidedata.pbobjc.m */; };
+		95197EA31EDEE5C1009AC14D /* Slidenumberfield.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D851EDEE5C1009AC14D /* Slidenumberfield.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EA41EDEE5C1009AC14D /* Slidenumberfield.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D861EDEE5C1009AC14D /* Slidenumberfield.pbobjc.m */; };
+		95197EA51EDEE5C1009AC14D /* Slideplaceholders.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D871EDEE5C1009AC14D /* Slideplaceholders.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EA61EDEE5C1009AC14D /* Slideplaceholders.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D881EDEE5C1009AC14D /* Slideplaceholders.pbobjc.m */; };
+		95197EA71EDEE5C1009AC14D /* Slidetype.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D891EDEE5C1009AC14D /* Slidetype.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EA81EDEE5C1009AC14D /* Slidetype.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D8A1EDEE5C1009AC14D /* Slidetype.pbobjc.m */; };
+		95197EA91EDEE5C1009AC14D /* Stringreference.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D8B1EDEE5C1009AC14D /* Stringreference.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EAA1EDEE5C1009AC14D /* Stringreference.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D8C1EDEE5C1009AC14D /* Stringreference.pbobjc.m */; };
+		95197EAB1EDEE5C1009AC14D /* Stroke.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D8D1EDEE5C1009AC14D /* Stroke.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EAC1EDEE5C1009AC14D /* Stroke.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D8E1EDEE5C1009AC14D /* Stroke.pbobjc.m */; };
+		95197EAD1EDEE5C1009AC14D /* Strokescheme.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D8F1EDEE5C1009AC14D /* Strokescheme.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EAE1EDEE5C1009AC14D /* Strokescheme.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D901EDEE5C1009AC14D /* Strokescheme.pbobjc.m */; };
+		95197EAF1EDEE5C1009AC14D /* Styleanimation.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D911EDEE5C1009AC14D /* Styleanimation.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EB01EDEE5C1009AC14D /* Styleanimation.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D921EDEE5C1009AC14D /* Styleanimation.pbobjc.m */; };
+		95197EB11EDEE5C1009AC14D /* Table.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D931EDEE5C1009AC14D /* Table.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EB21EDEE5C1009AC14D /* Table.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D941EDEE5C1009AC14D /* Table.pbobjc.m */; };
+		95197EB31EDEE5C1009AC14D /* Tablecellborders.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D951EDEE5C1009AC14D /* Tablecellborders.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EB41EDEE5C1009AC14D /* Tablecellborders.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D961EDEE5C1009AC14D /* Tablecellborders.pbobjc.m */; };
+		95197EB51EDEE5C1009AC14D /* Tablecellstyle.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D971EDEE5C1009AC14D /* Tablecellstyle.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EB61EDEE5C1009AC14D /* Tablecellstyle.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D981EDEE5C1009AC14D /* Tablecellstyle.pbobjc.m */; };
+		95197EB71EDEE5C1009AC14D /* Tablestyle.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D991EDEE5C1009AC14D /* Tablestyle.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EB81EDEE5C1009AC14D /* Tablestyle.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D9A1EDEE5C1009AC14D /* Tablestyle.pbobjc.m */; };
+		95197EB91EDEE5C1009AC14D /* Textbody.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D9B1EDEE5C1009AC14D /* Textbody.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EBA1EDEE5C1009AC14D /* Textbody.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D9C1EDEE5C1009AC14D /* Textbody.pbobjc.m */; };
+		95197EBB1EDEE5C1009AC14D /* Textboxprops.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D9D1EDEE5C1009AC14D /* Textboxprops.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EBC1EDEE5C1009AC14D /* Textboxprops.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197D9E1EDEE5C1009AC14D /* Textboxprops.pbobjc.m */; };
+		95197EBD1EDEE5C1009AC14D /* Textclips.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197D9F1EDEE5C1009AC14D /* Textclips.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EBE1EDEE5C1009AC14D /* Textclips.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197DA01EDEE5C1009AC14D /* Textclips.pbobjc.m */; };
+		95197EBF1EDEE5C1009AC14D /* Textfield.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197DA11EDEE5C1009AC14D /* Textfield.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EC01EDEE5C1009AC14D /* Textfield.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197DA21EDEE5C1009AC14D /* Textfield.pbobjc.m */; };
+		95197EC11EDEE5C1009AC14D /* Textstyle.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197DA31EDEE5C1009AC14D /* Textstyle.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EC21EDEE5C1009AC14D /* Textstyle.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197DA41EDEE5C1009AC14D /* Textstyle.pbobjc.m */; };
+		95197EC31EDEE5C1009AC14D /* Theme.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197DA51EDEE5C1009AC14D /* Theme.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EC41EDEE5C1009AC14D /* Theme.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197DA61EDEE5C1009AC14D /* Theme.pbobjc.m */; };
+		95197EC51EDEE5C1009AC14D /* Themedefault.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197DA71EDEE5C1009AC14D /* Themedefault.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EC61EDEE5C1009AC14D /* Themedefault.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197DA81EDEE5C1009AC14D /* Themedefault.pbobjc.m */; };
+		95197EC71EDEE5C1009AC14D /* Themedifferences.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197DA91EDEE5C1009AC14D /* Themedifferences.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197EC81EDEE5C1009AC14D /* Themedifferences.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197DAA1EDEE5C1009AC14D /* Themedifferences.pbobjc.m */; };
+		95197EC91EDEE5C1009AC14D /* Themereference.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197DAB1EDEE5C1009AC14D /* Themereference.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197ECA1EDEE5C1009AC14D /* Themereference.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197DAC1EDEE5C1009AC14D /* Themereference.pbobjc.m */; };
+		95197ECB1EDEE5C1009AC14D /* Themesupercede.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197DAD1EDEE5C1009AC14D /* Themesupercede.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197ECC1EDEE5C1009AC14D /* Themesupercede.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197DAE1EDEE5C1009AC14D /* Themesupercede.pbobjc.m */; };
+		95197ECD1EDEE5C1009AC14D /* Titleelement.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197DAF1EDEE5C1009AC14D /* Titleelement.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197ECE1EDEE5C1009AC14D /* Titleelement.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197DB01EDEE5C1009AC14D /* Titleelement.pbobjc.m */; };
+		95197ECF1EDEE5C1009AC14D /* Transform.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197DB11EDEE5C1009AC14D /* Transform.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197ED01EDEE5C1009AC14D /* Transform.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197DB21EDEE5C1009AC14D /* Transform.pbobjc.m */; };
+		95197ED11EDEE5C1009AC14D /* Transition.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197DB31EDEE5C1009AC14D /* Transition.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197ED21EDEE5C1009AC14D /* Transition.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197DB41EDEE5C1009AC14D /* Transition.pbobjc.m */; };
+		95197ED31EDEE5C1009AC14D /* Verticalaligntype.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197DB51EDEE5C1009AC14D /* Verticalaligntype.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197ED41EDEE5C1009AC14D /* Verticalaligntype.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197DB61EDEE5C1009AC14D /* Verticalaligntype.pbobjc.m */; };
+		95197ED51EDEE5C1009AC14D /* Viewprops.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197DB71EDEE5C1009AC14D /* Viewprops.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197ED61EDEE5C1009AC14D /* Viewprops.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197DB81EDEE5C1009AC14D /* Viewprops.pbobjc.m */; };
+		95197ED71EDEE5C1009AC14D /* Whiteboard.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197DB91EDEE5C1009AC14D /* Whiteboard.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95197ED81EDEE5C1009AC14D /* Whiteboard.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197DBA1EDEE5C1009AC14D /* Whiteboard.pbobjc.m */; };
+		9739302F5853D4B63ED8042B /* Pods_swiftFrameworkTrial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F61B23C6EF4ABC595DECDE4C /* Pods_swiftFrameworkTrial.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95197C8C1EDEE57B009AC14D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95197C781EDEE57B009AC14D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95197C801EDEE57B009AC14D;
+			remoteInfo = swiftFrameworkTrial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95197C811EDEE57B009AC14D /* swiftFrameworkTrial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = swiftFrameworkTrial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95197C841EDEE57B009AC14D /* swiftFrameworkTrial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = swiftFrameworkTrial.h; sourceTree = "<group>"; };
+		95197C851EDEE57B009AC14D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95197C8A1EDEE57B009AC14D /* swiftFrameworkTrialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftFrameworkTrialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95197C8F1EDEE57B009AC14D /* swiftFrameworkTrialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftFrameworkTrialTests.swift; sourceTree = "<group>"; };
+		95197C911EDEE57B009AC14D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95197C9C1EDEE5C1009AC14D /* Animation.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.pbobjc.h; sourceTree = "<group>"; };
+		95197C9D1EDEE5C1009AC14D /* Animation.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation.pbobjc.m; sourceTree = "<group>"; };
+		95197C9E1EDEE5C1009AC14D /* Animationdata.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animationdata.pbobjc.h; sourceTree = "<group>"; };
+		95197C9F1EDEE5C1009AC14D /* Animationdata.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animationdata.pbobjc.m; sourceTree = "<group>"; };
+		95197CA01EDEE5C1009AC14D /* Animationlist.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animationlist.pbobjc.h; sourceTree = "<group>"; };
+		95197CA11EDEE5C1009AC14D /* Animationlist.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animationlist.pbobjc.m; sourceTree = "<group>"; };
+		95197CA21EDEE5C1009AC14D /* Area3Dchart.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Area3Dchart.pbobjc.h; sourceTree = "<group>"; };
+		95197CA31EDEE5C1009AC14D /* Area3Dchart.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Area3Dchart.pbobjc.m; sourceTree = "<group>"; };
+		95197CA41EDEE5C1009AC14D /* Areachart.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Areachart.pbobjc.h; sourceTree = "<group>"; };
+		95197CA51EDEE5C1009AC14D /* Areachart.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Areachart.pbobjc.m; sourceTree = "<group>"; };
+		95197CA61EDEE5C1009AC14D /* Areachartdetails.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Areachartdetails.pbobjc.h; sourceTree = "<group>"; };
+		95197CA71EDEE5C1009AC14D /* Areachartdetails.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Areachartdetails.pbobjc.m; sourceTree = "<group>"; };
+		95197CA81EDEE5C1009AC14D /* Areachartseries.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Areachartseries.pbobjc.h; sourceTree = "<group>"; };
+		95197CA91EDEE5C1009AC14D /* Areachartseries.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Areachartseries.pbobjc.m; sourceTree = "<group>"; };
+		95197CAA1EDEE5C1009AC14D /* Background.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Background.pbobjc.h; sourceTree = "<group>"; };
+		95197CAB1EDEE5C1009AC14D /* Background.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Background.pbobjc.m; sourceTree = "<group>"; };
+		95197CAC1EDEE5C1009AC14D /* Bar3Dchart.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar3Dchart.pbobjc.h; sourceTree = "<group>"; };
+		95197CAD1EDEE5C1009AC14D /* Bar3Dchart.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bar3Dchart.pbobjc.m; sourceTree = "<group>"; };
+		95197CAE1EDEE5C1009AC14D /* Barchart.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barchart.pbobjc.h; sourceTree = "<group>"; };
+		95197CAF1EDEE5C1009AC14D /* Barchart.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barchart.pbobjc.m; sourceTree = "<group>"; };
+		95197CB01EDEE5C1009AC14D /* Barchartdetails.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barchartdetails.pbobjc.h; sourceTree = "<group>"; };
+		95197CB11EDEE5C1009AC14D /* Barchartdetails.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barchartdetails.pbobjc.m; sourceTree = "<group>"; };
+		95197CB21EDEE5C1009AC14D /* Bubblechart.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bubblechart.pbobjc.h; sourceTree = "<group>"; };
+		95197CB31EDEE5C1009AC14D /* Bubblechart.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bubblechart.pbobjc.m; sourceTree = "<group>"; };
+		95197CB41EDEE5C1009AC14D /* Category.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.pbobjc.h; sourceTree = "<group>"; };
+		95197CB51EDEE5C1009AC14D /* Category.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.pbobjc.m; sourceTree = "<group>"; };
+		95197CB61EDEE5C1009AC14D /* Chart.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chart.pbobjc.h; sourceTree = "<group>"; };
+		95197CB71EDEE5C1009AC14D /* Chart.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chart.pbobjc.m; sourceTree = "<group>"; };
+		95197CB81EDEE5C1009AC14D /* Chartaxis.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chartaxis.pbobjc.h; sourceTree = "<group>"; };
+		95197CB91EDEE5C1009AC14D /* Chartaxis.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chartaxis.pbobjc.m; sourceTree = "<group>"; };
+		95197CBA1EDEE5C1009AC14D /* Chartline.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chartline.pbobjc.h; sourceTree = "<group>"; };
+		95197CBB1EDEE5C1009AC14D /* Chartline.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chartline.pbobjc.m; sourceTree = "<group>"; };
+		95197CBC1EDEE5C1009AC14D /* Chartshape.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chartshape.pbobjc.h; sourceTree = "<group>"; };
+		95197CBD1EDEE5C1009AC14D /* Chartshape.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chartshape.pbobjc.m; sourceTree = "<group>"; };
+		95197CBE1EDEE5C1009AC14D /* Chartstyle.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chartstyle.pbobjc.h; sourceTree = "<group>"; };
+		95197CBF1EDEE5C1009AC14D /* Chartstyle.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chartstyle.pbobjc.m; sourceTree = "<group>"; };
+		95197CC01EDEE5C1009AC14D /* Chartstyles.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chartstyles.pbobjc.h; sourceTree = "<group>"; };
+		95197CC11EDEE5C1009AC14D /* Chartstyles.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chartstyles.pbobjc.m; sourceTree = "<group>"; };
+		95197CC21EDEE5C1009AC14D /* Charttext.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Charttext.pbobjc.h; sourceTree = "<group>"; };
+		95197CC31EDEE5C1009AC14D /* Charttext.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Charttext.pbobjc.m; sourceTree = "<group>"; };
+		95197CC41EDEE5C1009AC14D /* Clipboard.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clipboard.pbobjc.h; sourceTree = "<group>"; };
+		95197CC51EDEE5C1009AC14D /* Clipboard.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clipboard.pbobjc.m; sourceTree = "<group>"; };
+		95197CC61EDEE5C1009AC14D /* Color.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.pbobjc.h; sourceTree = "<group>"; };
+		95197CC71EDEE5C1009AC14D /* Color.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Color.pbobjc.m; sourceTree = "<group>"; };
+		95197CC81EDEE5C1009AC14D /* Colormap.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colormap.pbobjc.h; sourceTree = "<group>"; };
+		95197CC91EDEE5C1009AC14D /* Colormap.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colormap.pbobjc.m; sourceTree = "<group>"; };
+		95197CCA1EDEE5C1009AC14D /* Colorscheme.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colorscheme.pbobjc.h; sourceTree = "<group>"; };
+		95197CCB1EDEE5C1009AC14D /* Colorscheme.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colorscheme.pbobjc.m; sourceTree = "<group>"; };
+		95197CCC1EDEE5C1009AC14D /* Colortweaks.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colortweaks.pbobjc.h; sourceTree = "<group>"; };
+		95197CCD1EDEE5C1009AC14D /* Colortweaks.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colortweaks.pbobjc.m; sourceTree = "<group>"; };
+		95197CCE1EDEE5C1009AC14D /* Connector.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connector.pbobjc.h; sourceTree = "<group>"; };
+		95197CCF1EDEE5C1009AC14D /* Connector.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connector.pbobjc.m; sourceTree = "<group>"; };
+		95197CD01EDEE5C1009AC14D /* Customfile.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customfile.pbobjc.h; sourceTree = "<group>"; };
+		95197CD11EDEE5C1009AC14D /* Customfile.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customfile.pbobjc.m; sourceTree = "<group>"; };
+		95197CD21EDEE5C1009AC14D /* Customgeometry.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customgeometry.pbobjc.h; sourceTree = "<group>"; };
+		95197CD31EDEE5C1009AC14D /* Customgeometry.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customgeometry.pbobjc.m; sourceTree = "<group>"; };
+		95197CD41EDEE5C1009AC14D /* Datalabels.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Datalabels.pbobjc.h; sourceTree = "<group>"; };
+		95197CD51EDEE5C1009AC14D /* Datalabels.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Datalabels.pbobjc.m; sourceTree = "<group>"; };
+		95197CD61EDEE5C1009AC14D /* Datamarker.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Datamarker.pbobjc.h; sourceTree = "<group>"; };
+		95197CD71EDEE5C1009AC14D /* Datamarker.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Datamarker.pbobjc.m; sourceTree = "<group>"; };
+		95197CD81EDEE5C1009AC14D /* Datapoint.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Datapoint.pbobjc.h; sourceTree = "<group>"; };
+		95197CD91EDEE5C1009AC14D /* Datapoint.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Datapoint.pbobjc.m; sourceTree = "<group>"; };
+		95197CDA1EDEE5C1009AC14D /* Datetimefield.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Datetimefield.pbobjc.h; sourceTree = "<group>"; };
+		95197CDB1EDEE5C1009AC14D /* Datetimefield.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Datetimefield.pbobjc.m; sourceTree = "<group>"; };
+		95197CDC1EDEE5C1009AC14D /* Dimension.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dimension.pbobjc.h; sourceTree = "<group>"; };
+		95197CDD1EDEE5C1009AC14D /* Dimension.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dimension.pbobjc.m; sourceTree = "<group>"; };
+		95197CDE1EDEE5C1009AC14D /* Displayanimation.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Displayanimation.pbobjc.h; sourceTree = "<group>"; };
+		95197CDF1EDEE5C1009AC14D /* Displayanimation.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Displayanimation.pbobjc.m; sourceTree = "<group>"; };
+		95197CE01EDEE5C1009AC14D /* Document.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.pbobjc.h; sourceTree = "<group>"; };
+		95197CE11EDEE5C1009AC14D /* Document.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.pbobjc.m; sourceTree = "<group>"; };
+		95197CE21EDEE5C1009AC14D /* Documentdata.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Documentdata.pbobjc.h; sourceTree = "<group>"; };
+		95197CE31EDEE5C1009AC14D /* Documentdata.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Documentdata.pbobjc.m; sourceTree = "<group>"; };
+		95197CE41EDEE5C1009AC14D /* Doughnutchart.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doughnutchart.pbobjc.h; sourceTree = "<group>"; };
+		95197CE51EDEE5C1009AC14D /* Doughnutchart.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doughnutchart.pbobjc.m; sourceTree = "<group>"; };
+		95197CE61EDEE5C1009AC14D /* Editorcompatible.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Editorcompatible.pbobjc.h; sourceTree = "<group>"; };
+		95197CE71EDEE5C1009AC14D /* Editorcompatible.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Editorcompatible.pbobjc.m; sourceTree = "<group>"; };
+		95197CE81EDEE5C1009AC14D /* Effects.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Effects.pbobjc.h; sourceTree = "<group>"; };
+		95197CE91EDEE5C1009AC14D /* Effects.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Effects.pbobjc.m; sourceTree = "<group>"; };
+		95197CEA1EDEE5C1009AC14D /* Fill.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fill.pbobjc.h; sourceTree = "<group>"; };
+		95197CEB1EDEE5C1009AC14D /* Fill.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fill.pbobjc.m; sourceTree = "<group>"; };
+		95197CEC1EDEE5C1009AC14D /* Fillscheme.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fillscheme.pbobjc.h; sourceTree = "<group>"; };
+		95197CED1EDEE5C1009AC14D /* Fillscheme.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fillscheme.pbobjc.m; sourceTree = "<group>"; };
+		95197CEE1EDEE5C1009AC14D /* Font.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Font.pbobjc.h; sourceTree = "<group>"; };
+		95197CEF1EDEE5C1009AC14D /* Font.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Font.pbobjc.m; sourceTree = "<group>"; };
+		95197CF01EDEE5C1009AC14D /* Fontref.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fontref.pbobjc.h; sourceTree = "<group>"; };
+		95197CF11EDEE5C1009AC14D /* Fontref.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fontref.pbobjc.m; sourceTree = "<group>"; };
+		95197CF21EDEE5C1009AC14D /* Fontreference.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fontreference.pbobjc.h; sourceTree = "<group>"; };
+		95197CF31EDEE5C1009AC14D /* Fontreference.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fontreference.pbobjc.m; sourceTree = "<group>"; };
+		95197CF41EDEE5C1009AC14D /* Fontscheme.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fontscheme.pbobjc.h; sourceTree = "<group>"; };
+		95197CF51EDEE5C1009AC14D /* Fontscheme.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fontscheme.pbobjc.m; sourceTree = "<group>"; };
+		95197CF61EDEE5C1009AC14D /* Graphicframe.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graphicframe.pbobjc.h; sourceTree = "<group>"; };
+		95197CF71EDEE5C1009AC14D /* Graphicframe.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graphicframe.pbobjc.m; sourceTree = "<group>"; };
+		95197CF81EDEE5C1009AC14D /* Grids.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grids.pbobjc.h; sourceTree = "<group>"; };
+		95197CF91EDEE5C1009AC14D /* Grids.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grids.pbobjc.m; sourceTree = "<group>"; };
+		95197CFA1EDEE5C1009AC14D /* Guide.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Guide.pbobjc.h; sourceTree = "<group>"; };
+		95197CFB1EDEE5C1009AC14D /* Guide.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Guide.pbobjc.m; sourceTree = "<group>"; };
+		95197CFC1EDEE5C1009AC14D /* Hidemaster.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hidemaster.pbobjc.h; sourceTree = "<group>"; };
+		95197CFD1EDEE5C1009AC14D /* Hidemaster.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hidemaster.pbobjc.m; sourceTree = "<group>"; };
+		95197CFE1EDEE5C1009AC14D /* Horizontalaligntype.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Horizontalaligntype.pbobjc.h; sourceTree = "<group>"; };
+		95197CFF1EDEE5C1009AC14D /* Horizontalaligntype.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Horizontalaligntype.pbobjc.m; sourceTree = "<group>"; };
+		95197D001EDEE5C1009AC14D /* Hyperlink.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hyperlink.pbobjc.h; sourceTree = "<group>"; };
+		95197D011EDEE5C1009AC14D /* Hyperlink.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hyperlink.pbobjc.m; sourceTree = "<group>"; };
+		95197D021EDEE5C1009AC14D /* Line3Dchart.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line3Dchart.pbobjc.h; sourceTree = "<group>"; };
+		95197D031EDEE5C1009AC14D /* Line3Dchart.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line3Dchart.pbobjc.m; sourceTree = "<group>"; };
+		95197D041EDEE5C1009AC14D /* Linechart.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Linechart.pbobjc.h; sourceTree = "<group>"; };
+		95197D051EDEE5C1009AC14D /* Linechart.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Linechart.pbobjc.m; sourceTree = "<group>"; };
+		95197D061EDEE5C1009AC14D /* Linechartdetails.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Linechartdetails.pbobjc.h; sourceTree = "<group>"; };
+		95197D071EDEE5C1009AC14D /* Linechartdetails.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Linechartdetails.pbobjc.m; sourceTree = "<group>"; };
+		95197D081EDEE5C1009AC14D /* Linechartseries.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Linechartseries.pbobjc.h; sourceTree = "<group>"; };
+		95197D091EDEE5C1009AC14D /* Linechartseries.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Linechartseries.pbobjc.m; sourceTree = "<group>"; };
+		95197D0A1EDEE5C1009AC14D /* Linetype.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Linetype.pbobjc.h; sourceTree = "<group>"; };
+		95197D0B1EDEE5C1009AC14D /* Linetype.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Linetype.pbobjc.m; sourceTree = "<group>"; };
+		95197D0C1EDEE5C1009AC14D /* Locks.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Locks.pbobjc.h; sourceTree = "<group>"; };
+		95197D0D1EDEE5C1009AC14D /* Locks.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Locks.pbobjc.m; sourceTree = "<group>"; };
+		95197D0E1EDEE5C1009AC14D /* Manuallayout.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manuallayout.pbobjc.h; sourceTree = "<group>"; };
+		95197D0F1EDEE5C1009AC14D /* Manuallayout.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manuallayout.pbobjc.m; sourceTree = "<group>"; };
+		95197D101EDEE5C1009AC14D /* Margin.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Margin.pbobjc.h; sourceTree = "<group>"; };
+		95197D111EDEE5C1009AC14D /* Margin.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Margin.pbobjc.m; sourceTree = "<group>"; };
+		95197D121EDEE5C1009AC14D /* Marker.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Marker.pbobjc.h; sourceTree = "<group>"; };
+		95197D131EDEE5C1009AC14D /* Marker.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Marker.pbobjc.m; sourceTree = "<group>"; };
+		95197D141EDEE5C1009AC14D /* Master.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Master.pbobjc.h; sourceTree = "<group>"; };
+		95197D151EDEE5C1009AC14D /* Master.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Master.pbobjc.m; sourceTree = "<group>"; };
+		95197D161EDEE5C1009AC14D /* Nonvisualconnectordrawingprops.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nonvisualconnectordrawingprops.pbobjc.h; sourceTree = "<group>"; };
+		95197D171EDEE5C1009AC14D /* Nonvisualconnectordrawingprops.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nonvisualconnectordrawingprops.pbobjc.m; sourceTree = "<group>"; };
+		95197D181EDEE5C1009AC14D /* Nonvisualconnectorprops.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nonvisualconnectorprops.pbobjc.h; sourceTree = "<group>"; };
+		95197D191EDEE5C1009AC14D /* Nonvisualconnectorprops.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nonvisualconnectorprops.pbobjc.m; sourceTree = "<group>"; };
+		95197D1A1EDEE5C1009AC14D /* Nonvisualdrawingprops.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nonvisualdrawingprops.pbobjc.h; sourceTree = "<group>"; };
+		95197D1B1EDEE5C1009AC14D /* Nonvisualdrawingprops.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nonvisualdrawingprops.pbobjc.m; sourceTree = "<group>"; };
+		95197D1C1EDEE5C1009AC14D /* Nonvisualgroupshapedrawingprops.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nonvisualgroupshapedrawingprops.pbobjc.h; sourceTree = "<group>"; };
+		95197D1D1EDEE5C1009AC14D /* Nonvisualgroupshapedrawingprops.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nonvisualgroupshapedrawingprops.pbobjc.m; sourceTree = "<group>"; };
+		95197D1E1EDEE5C1009AC14D /* Nonvisualgroupshapeprops.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nonvisualgroupshapeprops.pbobjc.h; sourceTree = "<group>"; };
+		95197D1F1EDEE5C1009AC14D /* Nonvisualgroupshapeprops.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nonvisualgroupshapeprops.pbobjc.m; sourceTree = "<group>"; };
+		95197D201EDEE5C1009AC14D /* Nonvisualpicturedrawingprops.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nonvisualpicturedrawingprops.pbobjc.h; sourceTree = "<group>"; };
+		95197D211EDEE5C1009AC14D /* Nonvisualpicturedrawingprops.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nonvisualpicturedrawingprops.pbobjc.m; sourceTree = "<group>"; };
+		95197D221EDEE5C1009AC14D /* Nonvisualpictureprops.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nonvisualpictureprops.pbobjc.h; sourceTree = "<group>"; };
+		95197D231EDEE5C1009AC14D /* Nonvisualpictureprops.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nonvisualpictureprops.pbobjc.m; sourceTree = "<group>"; };
+		95197D241EDEE5C1009AC14D /* Nonvisualprops.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nonvisualprops.pbobjc.h; sourceTree = "<group>"; };
+		95197D251EDEE5C1009AC14D /* Nonvisualprops.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nonvisualprops.pbobjc.m; sourceTree = "<group>"; };
+		95197D261EDEE5C1009AC14D /* Nonvisualshapedrawingprops.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nonvisualshapedrawingprops.pbobjc.h; sourceTree = "<group>"; };
+		95197D271EDEE5C1009AC14D /* Nonvisualshapedrawingprops.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nonvisualshapedrawingprops.pbobjc.m; sourceTree = "<group>"; };
+		95197D281EDEE5C1009AC14D /* Nonvisualshapeprops.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nonvisualshapeprops.pbobjc.h; sourceTree = "<group>"; };
+		95197D291EDEE5C1009AC14D /* Nonvisualshapeprops.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nonvisualshapeprops.pbobjc.m; sourceTree = "<group>"; };
+		95197D2A1EDEE5C1009AC14D /* Numberreference.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Numberreference.pbobjc.h; sourceTree = "<group>"; };
+		95197D2B1EDEE5C1009AC14D /* Numberreference.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Numberreference.pbobjc.m; sourceTree = "<group>"; };
+		95197D2C1EDEE5C1009AC14D /* Offset.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Offset.pbobjc.h; sourceTree = "<group>"; };
+		95197D2D1EDEE5C1009AC14D /* Offset.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Offset.pbobjc.m; sourceTree = "<group>"; };
+		95197D2E1EDEE5C1009AC14D /* Pagesetup.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pagesetup.pbobjc.h; sourceTree = "<group>"; };
+		95197D2F1EDEE5C1009AC14D /* Pagesetup.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pagesetup.pbobjc.m; sourceTree = "<group>"; };
+		95197D301EDEE5C1009AC14D /* Paragraph.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Paragraph.pbobjc.h; sourceTree = "<group>"; };
+		95197D311EDEE5C1009AC14D /* Paragraph.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Paragraph.pbobjc.m; sourceTree = "<group>"; };
+		95197D321EDEE5C1009AC14D /* Parastyle.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parastyle.pbobjc.h; sourceTree = "<group>"; };
+		95197D331EDEE5C1009AC14D /* Parastyle.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parastyle.pbobjc.m; sourceTree = "<group>"; };
+		95197D341EDEE5C1009AC14D /* Pathobject.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pathobject.pbobjc.h; sourceTree = "<group>"; };
+		95197D351EDEE5C1009AC14D /* Pathobject.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pathobject.pbobjc.m; sourceTree = "<group>"; };
+		95197D361EDEE5C1009AC14D /* Picproperties.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picproperties.pbobjc.h; sourceTree = "<group>"; };
+		95197D371EDEE5C1009AC14D /* Picproperties.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picproperties.pbobjc.m; sourceTree = "<group>"; };
+		95197D381EDEE5C1009AC14D /* Picture.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picture.pbobjc.h; sourceTree = "<group>"; };
+		95197D391EDEE5C1009AC14D /* Picture.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picture.pbobjc.m; sourceTree = "<group>"; };
+		95197D3A1EDEE5C1009AC14D /* Pictureproperties.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pictureproperties.pbobjc.h; sourceTree = "<group>"; };
+		95197D3B1EDEE5C1009AC14D /* Pictureproperties.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pictureproperties.pbobjc.m; sourceTree = "<group>"; };
+		95197D3C1EDEE5C1009AC14D /* Picturevalue.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picturevalue.pbobjc.h; sourceTree = "<group>"; };
+		95197D3D1EDEE5C1009AC14D /* Picturevalue.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picturevalue.pbobjc.m; sourceTree = "<group>"; };
+		95197D3E1EDEE5C1009AC14D /* Pie3Dchart.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pie3Dchart.pbobjc.h; sourceTree = "<group>"; };
+		95197D3F1EDEE5C1009AC14D /* Pie3Dchart.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pie3Dchart.pbobjc.m; sourceTree = "<group>"; };
+		95197D401EDEE5C1009AC14D /* Piechart.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Piechart.pbobjc.h; sourceTree = "<group>"; };
+		95197D411EDEE5C1009AC14D /* Piechart.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Piechart.pbobjc.m; sourceTree = "<group>"; };
+		95197D421EDEE5C1009AC14D /* Piechartdetails.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Piechartdetails.pbobjc.h; sourceTree = "<group>"; };
+		95197D431EDEE5C1009AC14D /* Piechartdetails.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Piechartdetails.pbobjc.m; sourceTree = "<group>"; };
+		95197D441EDEE5C1009AC14D /* Placeholder.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Placeholder.pbobjc.h; sourceTree = "<group>"; };
+		95197D451EDEE5C1009AC14D /* Placeholder.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Placeholder.pbobjc.m; sourceTree = "<group>"; };
+		95197D461EDEE5C1009AC14D /* Plotarea.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plotarea.pbobjc.h; sourceTree = "<group>"; };
+		95197D471EDEE5C1009AC14D /* Plotarea.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plotarea.pbobjc.m; sourceTree = "<group>"; };
+		95197D481EDEE5C1009AC14D /* Portion.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Portion.pbobjc.h; sourceTree = "<group>"; };
+		95197D491EDEE5C1009AC14D /* Portion.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Portion.pbobjc.m; sourceTree = "<group>"; };
+		95197D4A1EDEE5C1009AC14D /* Portionprops.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Portionprops.pbobjc.h; sourceTree = "<group>"; };
+		95197D4B1EDEE5C1009AC14D /* Portionprops.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Portionprops.pbobjc.m; sourceTree = "<group>"; };
+		95197D4C1EDEE5C1009AC14D /* Position.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Position.pbobjc.h; sourceTree = "<group>"; };
+		95197D4D1EDEE5C1009AC14D /* Position.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Position.pbobjc.m; sourceTree = "<group>"; };
+		95197D4E1EDEE5C1009AC14D /* Positionelement.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Positionelement.pbobjc.h; sourceTree = "<group>"; };
+		95197D4F1EDEE5C1009AC14D /* Positionelement.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Positionelement.pbobjc.m; sourceTree = "<group>"; };
+		95197D501EDEE5C1009AC14D /* Preset.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preset.pbobjc.h; sourceTree = "<group>"; };
+		95197D511EDEE5C1009AC14D /* Preset.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preset.pbobjc.m; sourceTree = "<group>"; };
+		95197D521EDEE5C1009AC14D /* Preseteffects.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preseteffects.pbobjc.h; sourceTree = "<group>"; };
+		95197D531EDEE5C1009AC14D /* Preseteffects.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preseteffects.pbobjc.m; sourceTree = "<group>"; };
+		95197D541EDEE5C1009AC14D /* Presetprops.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Presetprops.pbobjc.h; sourceTree = "<group>"; };
+		95197D551EDEE5C1009AC14D /* Presetprops.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Presetprops.pbobjc.m; sourceTree = "<group>"; };
+		95197D561EDEE5C1009AC14D /* Presetshape.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Presetshape.pbobjc.h; sourceTree = "<group>"; };
+		95197D571EDEE5C1009AC14D /* Presetshape.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Presetshape.pbobjc.m; sourceTree = "<group>"; };
+		95197D581EDEE5C1009AC14D /* Presetshapegeometry.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Presetshapegeometry.pbobjc.h; sourceTree = "<group>"; };
+		95197D591EDEE5C1009AC14D /* Presetshapegeometry.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Presetshapegeometry.pbobjc.m; sourceTree = "<group>"; };
+		95197D5A1EDEE5C1009AC14D /* Properties.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Properties.pbobjc.h; sourceTree = "<group>"; };
+		95197D5B1EDEE5C1009AC14D /* Properties.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Properties.pbobjc.m; sourceTree = "<group>"; };
+		95197D5C1EDEE5C1009AC14D /* Protofielddefinition.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protofielddefinition.pbobjc.h; sourceTree = "<group>"; };
+		95197D5D1EDEE5C1009AC14D /* Protofielddefinition.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Protofielddefinition.pbobjc.m; sourceTree = "<group>"; };
+		95197D5E1EDEE5C1009AC14D /* Reference.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reference.pbobjc.h; sourceTree = "<group>"; };
+		95197D5F1EDEE5C1009AC14D /* Reference.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reference.pbobjc.m; sourceTree = "<group>"; };
+		95197D601EDEE5C1009AC14D /* Relationship.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Relationship.pbobjc.h; sourceTree = "<group>"; };
+		95197D611EDEE5C1009AC14D /* Relationship.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Relationship.pbobjc.m; sourceTree = "<group>"; };
+		95197D621EDEE5C1009AC14D /* Representivepiechart.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Representivepiechart.pbobjc.h; sourceTree = "<group>"; };
+		95197D631EDEE5C1009AC14D /* Representivepiechart.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Representivepiechart.pbobjc.m; sourceTree = "<group>"; };
+		95197D641EDEE5C1009AC14D /* Scale.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scale.pbobjc.h; sourceTree = "<group>"; };
+		95197D651EDEE5C1009AC14D /* Scale.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scale.pbobjc.m; sourceTree = "<group>"; };
+		95197D661EDEE5C1009AC14D /* Scatterchart.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scatterchart.pbobjc.h; sourceTree = "<group>"; };
+		95197D671EDEE5C1009AC14D /* Scatterchart.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scatterchart.pbobjc.m; sourceTree = "<group>"; };
+		95197D681EDEE5C1009AC14D /* Scatterchartdetails.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scatterchartdetails.pbobjc.h; sourceTree = "<group>"; };
+		95197D691EDEE5C1009AC14D /* Scatterchartdetails.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scatterchartdetails.pbobjc.m; sourceTree = "<group>"; };
+		95197D6A1EDEE5C1009AC14D /* Seriesdetails.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seriesdetails.pbobjc.h; sourceTree = "<group>"; };
+		95197D6B1EDEE5C1009AC14D /* Seriesdetails.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seriesdetails.pbobjc.m; sourceTree = "<group>"; };
+		95197D6C1EDEE5C1009AC14D /* Seriestext.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seriestext.pbobjc.h; sourceTree = "<group>"; };
+		95197D6D1EDEE5C1009AC14D /* Seriestext.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seriestext.pbobjc.m; sourceTree = "<group>"; };
+		95197D6E1EDEE5C1009AC14D /* Seriesvalue.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seriesvalue.pbobjc.h; sourceTree = "<group>"; };
+		95197D6F1EDEE5C1009AC14D /* Seriesvalue.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seriesvalue.pbobjc.m; sourceTree = "<group>"; };
+		95197D701EDEE5C1009AC14D /* Shape.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.pbobjc.h; sourceTree = "<group>"; };
+		95197D711EDEE5C1009AC14D /* Shape.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.pbobjc.m; sourceTree = "<group>"; };
+		95197D721EDEE5C1009AC14D /* Shapeclips.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapeclips.pbobjc.h; sourceTree = "<group>"; };
+		95197D731EDEE5C1009AC14D /* Shapeclips.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shapeclips.pbobjc.m; sourceTree = "<group>"; };
+		95197D741EDEE5C1009AC14D /* Shapegeometry.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapegeometry.pbobjc.h; sourceTree = "<group>"; };
+		95197D751EDEE5C1009AC14D /* Shapegeometry.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shapegeometry.pbobjc.m; sourceTree = "<group>"; };
+		95197D761EDEE5C1009AC14D /* Shapenodetype.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapenodetype.pbobjc.h; sourceTree = "<group>"; };
+		95197D771EDEE5C1009AC14D /* Shapenodetype.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shapenodetype.pbobjc.m; sourceTree = "<group>"; };
+		95197D781EDEE5C1009AC14D /* Shapeobject.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapeobject.pbobjc.h; sourceTree = "<group>"; };
+		95197D791EDEE5C1009AC14D /* Shapeobject.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shapeobject.pbobjc.m; sourceTree = "<group>"; };
+		95197D7B1EDEE5C1009AC14D /* Collaboration.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collaboration.pbobjc.h; sourceTree = "<group>"; };
+		95197D7C1EDEE5C1009AC14D /* Collaboration.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Collaboration.pbobjc.m; sourceTree = "<group>"; };
+		95197D7D1EDEE5C1009AC14D /* Presetshapearray.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Presetshapearray.pbobjc.h; sourceTree = "<group>"; };
+		95197D7E1EDEE5C1009AC14D /* Presetshapearray.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Presetshapearray.pbobjc.m; sourceTree = "<group>"; };
+		95197D7F1EDEE5C1009AC14D /* Showcast.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Showcast.pbobjc.h; sourceTree = "<group>"; };
+		95197D801EDEE5C1009AC14D /* Showcast.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Showcast.pbobjc.m; sourceTree = "<group>"; };
+		95197D811EDEE5C1009AC14D /* Slide.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slide.pbobjc.h; sourceTree = "<group>"; };
+		95197D821EDEE5C1009AC14D /* Slide.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slide.pbobjc.m; sourceTree = "<group>"; };
+		95197D831EDEE5C1009AC14D /* Slidedata.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slidedata.pbobjc.h; sourceTree = "<group>"; };
+		95197D841EDEE5C1009AC14D /* Slidedata.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slidedata.pbobjc.m; sourceTree = "<group>"; };
+		95197D851EDEE5C1009AC14D /* Slidenumberfield.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slidenumberfield.pbobjc.h; sourceTree = "<group>"; };
+		95197D861EDEE5C1009AC14D /* Slidenumberfield.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slidenumberfield.pbobjc.m; sourceTree = "<group>"; };
+		95197D871EDEE5C1009AC14D /* Slideplaceholders.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slideplaceholders.pbobjc.h; sourceTree = "<group>"; };
+		95197D881EDEE5C1009AC14D /* Slideplaceholders.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slideplaceholders.pbobjc.m; sourceTree = "<group>"; };
+		95197D891EDEE5C1009AC14D /* Slidetype.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Slidetype.pbobjc.h; sourceTree = "<group>"; };
+		95197D8A1EDEE5C1009AC14D /* Slidetype.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slidetype.pbobjc.m; sourceTree = "<group>"; };
+		95197D8B1EDEE5C1009AC14D /* Stringreference.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stringreference.pbobjc.h; sourceTree = "<group>"; };
+		95197D8C1EDEE5C1009AC14D /* Stringreference.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stringreference.pbobjc.m; sourceTree = "<group>"; };
+		95197D8D1EDEE5C1009AC14D /* Stroke.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stroke.pbobjc.h; sourceTree = "<group>"; };
+		95197D8E1EDEE5C1009AC14D /* Stroke.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stroke.pbobjc.m; sourceTree = "<group>"; };
+		95197D8F1EDEE5C1009AC14D /* Strokescheme.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strokescheme.pbobjc.h; sourceTree = "<group>"; };
+		95197D901EDEE5C1009AC14D /* Strokescheme.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Strokescheme.pbobjc.m; sourceTree = "<group>"; };
+		95197D911EDEE5C1009AC14D /* Styleanimation.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Styleanimation.pbobjc.h; sourceTree = "<group>"; };
+		95197D921EDEE5C1009AC14D /* Styleanimation.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Styleanimation.pbobjc.m; sourceTree = "<group>"; };
+		95197D931EDEE5C1009AC14D /* Table.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Table.pbobjc.h; sourceTree = "<group>"; };
+		95197D941EDEE5C1009AC14D /* Table.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Table.pbobjc.m; sourceTree = "<group>"; };
+		95197D951EDEE5C1009AC14D /* Tablecellborders.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tablecellborders.pbobjc.h; sourceTree = "<group>"; };
+		95197D961EDEE5C1009AC14D /* Tablecellborders.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tablecellborders.pbobjc.m; sourceTree = "<group>"; };
+		95197D971EDEE5C1009AC14D /* Tablecellstyle.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tablecellstyle.pbobjc.h; sourceTree = "<group>"; };
+		95197D981EDEE5C1009AC14D /* Tablecellstyle.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tablecellstyle.pbobjc.m; sourceTree = "<group>"; };
+		95197D991EDEE5C1009AC14D /* Tablestyle.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tablestyle.pbobjc.h; sourceTree = "<group>"; };
+		95197D9A1EDEE5C1009AC14D /* Tablestyle.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tablestyle.pbobjc.m; sourceTree = "<group>"; };
+		95197D9B1EDEE5C1009AC14D /* Textbody.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Textbody.pbobjc.h; sourceTree = "<group>"; };
+		95197D9C1EDEE5C1009AC14D /* Textbody.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Textbody.pbobjc.m; sourceTree = "<group>"; };
+		95197D9D1EDEE5C1009AC14D /* Textboxprops.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Textboxprops.pbobjc.h; sourceTree = "<group>"; };
+		95197D9E1EDEE5C1009AC14D /* Textboxprops.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Textboxprops.pbobjc.m; sourceTree = "<group>"; };
+		95197D9F1EDEE5C1009AC14D /* Textclips.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Textclips.pbobjc.h; sourceTree = "<group>"; };
+		95197DA01EDEE5C1009AC14D /* Textclips.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Textclips.pbobjc.m; sourceTree = "<group>"; };
+		95197DA11EDEE5C1009AC14D /* Textfield.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Textfield.pbobjc.h; sourceTree = "<group>"; };
+		95197DA21EDEE5C1009AC14D /* Textfield.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Textfield.pbobjc.m; sourceTree = "<group>"; };
+		95197DA31EDEE5C1009AC14D /* Textstyle.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Textstyle.pbobjc.h; sourceTree = "<group>"; };
+		95197DA41EDEE5C1009AC14D /* Textstyle.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Textstyle.pbobjc.m; sourceTree = "<group>"; };
+		95197DA51EDEE5C1009AC14D /* Theme.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theme.pbobjc.h; sourceTree = "<group>"; };
+		95197DA61EDEE5C1009AC14D /* Theme.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Theme.pbobjc.m; sourceTree = "<group>"; };
+		95197DA71EDEE5C1009AC14D /* Themedefault.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Themedefault.pbobjc.h; sourceTree = "<group>"; };
+		95197DA81EDEE5C1009AC14D /* Themedefault.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Themedefault.pbobjc.m; sourceTree = "<group>"; };
+		95197DA91EDEE5C1009AC14D /* Themedifferences.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Themedifferences.pbobjc.h; sourceTree = "<group>"; };
+		95197DAA1EDEE5C1009AC14D /* Themedifferences.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Themedifferences.pbobjc.m; sourceTree = "<group>"; };
+		95197DAB1EDEE5C1009AC14D /* Themereference.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Themereference.pbobjc.h; sourceTree = "<group>"; };
+		95197DAC1EDEE5C1009AC14D /* Themereference.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Themereference.pbobjc.m; sourceTree = "<group>"; };
+		95197DAD1EDEE5C1009AC14D /* Themesupercede.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Themesupercede.pbobjc.h; sourceTree = "<group>"; };
+		95197DAE1EDEE5C1009AC14D /* Themesupercede.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Themesupercede.pbobjc.m; sourceTree = "<group>"; };
+		95197DAF1EDEE5C1009AC14D /* Titleelement.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Titleelement.pbobjc.h; sourceTree = "<group>"; };
+		95197DB01EDEE5C1009AC14D /* Titleelement.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Titleelement.pbobjc.m; sourceTree = "<group>"; };
+		95197DB11EDEE5C1009AC14D /* Transform.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transform.pbobjc.h; sourceTree = "<group>"; };
+		95197DB21EDEE5C1009AC14D /* Transform.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transform.pbobjc.m; sourceTree = "<group>"; };
+		95197DB31EDEE5C1009AC14D /* Transition.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transition.pbobjc.h; sourceTree = "<group>"; };
+		95197DB41EDEE5C1009AC14D /* Transition.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transition.pbobjc.m; sourceTree = "<group>"; };
+		95197DB51EDEE5C1009AC14D /* Verticalaligntype.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Verticalaligntype.pbobjc.h; sourceTree = "<group>"; };
+		95197DB61EDEE5C1009AC14D /* Verticalaligntype.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Verticalaligntype.pbobjc.m; sourceTree = "<group>"; };
+		95197DB71EDEE5C1009AC14D /* Viewprops.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Viewprops.pbobjc.h; sourceTree = "<group>"; };
+		95197DB81EDEE5C1009AC14D /* Viewprops.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Viewprops.pbobjc.m; sourceTree = "<group>"; };
+		95197DB91EDEE5C1009AC14D /* Whiteboard.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Whiteboard.pbobjc.h; sourceTree = "<group>"; };
+		95197DBA1EDEE5C1009AC14D /* Whiteboard.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Whiteboard.pbobjc.m; sourceTree = "<group>"; };
+		9E8DFC9668BED5B2DE397894 /* Pods-swiftFrameworkTrial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftFrameworkTrial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftFrameworkTrial/Pods-swiftFrameworkTrial.debug.xcconfig"; sourceTree = "<group>"; };
+		F61B23C6EF4ABC595DECDE4C /* Pods_swiftFrameworkTrial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftFrameworkTrial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68ED9FF945C06915EDDC6ED /* Pods-swiftFrameworkTrial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftFrameworkTrial.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftFrameworkTrial/Pods-swiftFrameworkTrial.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95197C7D1EDEE57B009AC14D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9739302F5853D4B63ED8042B /* Pods_swiftFrameworkTrial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95197C871EDEE57B009AC14D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95197C8B1EDEE57B009AC14D /* swiftFrameworkTrial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		234B90AF439995252C38B7D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F61B23C6EF4ABC595DECDE4C /* Pods_swiftFrameworkTrial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A5840E7823DAF12AA5E06C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E8DFC9668BED5B2DE397894 /* Pods-swiftFrameworkTrial.debug.xcconfig */,
+				F68ED9FF945C06915EDDC6ED /* Pods-swiftFrameworkTrial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		95197C771EDEE57B009AC14D = {
+			isa = PBXGroup;
+			children = (
+				95197C831EDEE57B009AC14D /* swiftFrameworkTrial */,
+				95197C8E1EDEE57B009AC14D /* swiftFrameworkTrialTests */,
+				95197C821EDEE57B009AC14D /* Products */,
+				8A5840E7823DAF12AA5E06C4 /* Pods */,
+				234B90AF439995252C38B7D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95197C821EDEE57B009AC14D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95197C811EDEE57B009AC14D /* swiftFrameworkTrial.framework */,
+				95197C8A1EDEE57B009AC14D /* swiftFrameworkTrialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95197C831EDEE57B009AC14D /* swiftFrameworkTrial */ = {
+			isa = PBXGroup;
+			children = (
+				95197C9B1EDEE5C1009AC14D /* objcProto */,
+				95197C841EDEE57B009AC14D /* swiftFrameworkTrial.h */,
+				95197C851EDEE57B009AC14D /* Info.plist */,
+			);
+			path = swiftFrameworkTrial;
+			sourceTree = "<group>";
+		};
+		95197C8E1EDEE57B009AC14D /* swiftFrameworkTrialTests */ = {
+			isa = PBXGroup;
+			children = (
+				95197C8F1EDEE57B009AC14D /* swiftFrameworkTrialTests.swift */,
+				95197C911EDEE57B009AC14D /* Info.plist */,
+			);
+			path = swiftFrameworkTrialTests;
+			sourceTree = "<group>";
+		};
+		95197C9B1EDEE5C1009AC14D /* objcProto */ = {
+			isa = PBXGroup;
+			children = (
+				95197C9C1EDEE5C1009AC14D /* Animation.pbobjc.h */,
+				95197C9D1EDEE5C1009AC14D /* Animation.pbobjc.m */,
+				95197C9E1EDEE5C1009AC14D /* Animationdata.pbobjc.h */,
+				95197C9F1EDEE5C1009AC14D /* Animationdata.pbobjc.m */,
+				95197CA01EDEE5C1009AC14D /* Animationlist.pbobjc.h */,
+				95197CA11EDEE5C1009AC14D /* Animationlist.pbobjc.m */,
+				95197CA21EDEE5C1009AC14D /* Area3Dchart.pbobjc.h */,
+				95197CA31EDEE5C1009AC14D /* Area3Dchart.pbobjc.m */,
+				95197CA41EDEE5C1009AC14D /* Areachart.pbobjc.h */,
+				95197CA51EDEE5C1009AC14D /* Areachart.pbobjc.m */,
+				95197CA61EDEE5C1009AC14D /* Areachartdetails.pbobjc.h */,
+				95197CA71EDEE5C1009AC14D /* Areachartdetails.pbobjc.m */,
+				95197CA81EDEE5C1009AC14D /* Areachartseries.pbobjc.h */,
+				95197CA91EDEE5C1009AC14D /* Areachartseries.pbobjc.m */,
+				95197CAA1EDEE5C1009AC14D /* Background.pbobjc.h */,
+				95197CAB1EDEE5C1009AC14D /* Background.pbobjc.m */,
+				95197CAC1EDEE5C1009AC14D /* Bar3Dchart.pbobjc.h */,
+				95197CAD1EDEE5C1009AC14D /* Bar3Dchart.pbobjc.m */,
+				95197CAE1EDEE5C1009AC14D /* Barchart.pbobjc.h */,
+				95197CAF1EDEE5C1009AC14D /* Barchart.pbobjc.m */,
+				95197CB01EDEE5C1009AC14D /* Barchartdetails.pbobjc.h */,
+				95197CB11EDEE5C1009AC14D /* Barchartdetails.pbobjc.m */,
+				95197CB21EDEE5C1009AC14D /* Bubblechart.pbobjc.h */,
+				95197CB31EDEE5C1009AC14D /* Bubblechart.pbobjc.m */,
+				95197CB41EDEE5C1009AC14D /* Category.pbobjc.h */,
+				95197CB51EDEE5C1009AC14D /* Category.pbobjc.m */,
+				95197CB61EDEE5C1009AC14D /* Chart.pbobjc.h */,
+				95197CB71EDEE5C1009AC14D /* Chart.pbobjc.m */,
+				95197CB81EDEE5C1009AC14D /* Chartaxis.pbobjc.h */,
+				95197CB91EDEE5C1009AC14D /* Chartaxis.pbobjc.m */,
+				95197CBA1EDEE5C1009AC14D /* Chartline.pbobjc.h */,
+				95197CBB1EDEE5C1009AC14D /* Chartline.pbobjc.m */,
+				95197CBC1EDEE5C1009AC14D /* Chartshape.pbobjc.h */,
+				95197CBD1EDEE5C1009AC14D /* Chartshape.pbobjc.m */,
+				95197CBE1EDEE5C1009AC14D /* Chartstyle.pbobjc.h */,
+				95197CBF1EDEE5C1009AC14D /* Chartstyle.pbobjc.m */,
+				95197CC01EDEE5C1009AC14D /* Chartstyles.pbobjc.h */,
+				95197CC11EDEE5C1009AC14D /* Chartstyles.pbobjc.m */,
+				95197CC21EDEE5C1009AC14D /* Charttext.pbobjc.h */,
+				95197CC31EDEE5C1009AC14D /* Charttext.pbobjc.m */,
+				95197CC41EDEE5C1009AC14D /* Clipboard.pbobjc.h */,
+				95197CC51EDEE5C1009AC14D /* Clipboard.pbobjc.m */,
+				95197CC61EDEE5C1009AC14D /* Color.pbobjc.h */,
+				95197CC71EDEE5C1009AC14D /* Color.pbobjc.m */,
+				95197CC81EDEE5C1009AC14D /* Colormap.pbobjc.h */,
+				95197CC91EDEE5C1009AC14D /* Colormap.pbobjc.m */,
+				95197CCA1EDEE5C1009AC14D /* Colorscheme.pbobjc.h */,
+				95197CCB1EDEE5C1009AC14D /* Colorscheme.pbobjc.m */,
+				95197CCC1EDEE5C1009AC14D /* Colortweaks.pbobjc.h */,
+				95197CCD1EDEE5C1009AC14D /* Colortweaks.pbobjc.m */,
+				95197CCE1EDEE5C1009AC14D /* Connector.pbobjc.h */,
+				95197CCF1EDEE5C1009AC14D /* Connector.pbobjc.m */,
+				95197CD01EDEE5C1009AC14D /* Customfile.pbobjc.h */,
+				95197CD11EDEE5C1009AC14D /* Customfile.pbobjc.m */,
+				95197CD21EDEE5C1009AC14D /* Customgeometry.pbobjc.h */,
+				95197CD31EDEE5C1009AC14D /* Customgeometry.pbobjc.m */,
+				95197CD41EDEE5C1009AC14D /* Datalabels.pbobjc.h */,
+				95197CD51EDEE5C1009AC14D /* Datalabels.pbobjc.m */,
+				95197CD61EDEE5C1009AC14D /* Datamarker.pbobjc.h */,
+				95197CD71EDEE5C1009AC14D /* Datamarker.pbobjc.m */,
+				95197CD81EDEE5C1009AC14D /* Datapoint.pbobjc.h */,
+				95197CD91EDEE5C1009AC14D /* Datapoint.pbobjc.m */,
+				95197CDA1EDEE5C1009AC14D /* Datetimefield.pbobjc.h */,
+				95197CDB1EDEE5C1009AC14D /* Datetimefield.pbobjc.m */,
+				95197CDC1EDEE5C1009AC14D /* Dimension.pbobjc.h */,
+				95197CDD1EDEE5C1009AC14D /* Dimension.pbobjc.m */,
+				95197CDE1EDEE5C1009AC14D /* Displayanimation.pbobjc.h */,
+				95197CDF1EDEE5C1009AC14D /* Displayanimation.pbobjc.m */,
+				95197CE01EDEE5C1009AC14D /* Document.pbobjc.h */,
+				95197CE11EDEE5C1009AC14D /* Document.pbobjc.m */,
+				95197CE21EDEE5C1009AC14D /* Documentdata.pbobjc.h */,
+				95197CE31EDEE5C1009AC14D /* Documentdata.pbobjc.m */,
+				95197CE41EDEE5C1009AC14D /* Doughnutchart.pbobjc.h */,
+				95197CE51EDEE5C1009AC14D /* Doughnutchart.pbobjc.m */,
+				95197CE61EDEE5C1009AC14D /* Editorcompatible.pbobjc.h */,
+				95197CE71EDEE5C1009AC14D /* Editorcompatible.pbobjc.m */,
+				95197CE81EDEE5C1009AC14D /* Effects.pbobjc.h */,
+				95197CE91EDEE5C1009AC14D /* Effects.pbobjc.m */,
+				95197CEA1EDEE5C1009AC14D /* Fill.pbobjc.h */,
+				95197CEB1EDEE5C1009AC14D /* Fill.pbobjc.m */,
+				95197CEC1EDEE5C1009AC14D /* Fillscheme.pbobjc.h */,
+				95197CED1EDEE5C1009AC14D /* Fillscheme.pbobjc.m */,
+				95197CEE1EDEE5C1009AC14D /* Font.pbobjc.h */,
+				95197CEF1EDEE5C1009AC14D /* Font.pbobjc.m */,
+				95197CF01EDEE5C1009AC14D /* Fontref.pbobjc.h */,
+				95197CF11EDEE5C1009AC14D /* Fontref.pbobjc.m */,
+				95197CF21EDEE5C1009AC14D /* Fontreference.pbobjc.h */,
+				95197CF31EDEE5C1009AC14D /* Fontreference.pbobjc.m */,
+				95197CF41EDEE5C1009AC14D /* Fontscheme.pbobjc.h */,
+				95197CF51EDEE5C1009AC14D /* Fontscheme.pbobjc.m */,
+				95197CF61EDEE5C1009AC14D /* Graphicframe.pbobjc.h */,
+				95197CF71EDEE5C1009AC14D /* Graphicframe.pbobjc.m */,
+				95197CF81EDEE5C1009AC14D /* Grids.pbobjc.h */,
+				95197CF91EDEE5C1009AC14D /* Grids.pbobjc.m */,
+				95197CFA1EDEE5C1009AC14D /* Guide.pbobjc.h */,
+				95197CFB1EDEE5C1009AC14D /* Guide.pbobjc.m */,
+				95197CFC1EDEE5C1009AC14D /* Hidemaster.pbobjc.h */,
+				95197CFD1EDEE5C1009AC14D /* Hidemaster.pbobjc.m */,
+				95197CFE1EDEE5C1009AC14D /* Horizontalaligntype.pbobjc.h */,
+				95197CFF1EDEE5C1009AC14D /* Horizontalaligntype.pbobjc.m */,
+				95197D001EDEE5C1009AC14D /* Hyperlink.pbobjc.h */,
+				95197D011EDEE5C1009AC14D /* Hyperlink.pbobjc.m */,
+				95197D021EDEE5C1009AC14D /* Line3Dchart.pbobjc.h */,
+				95197D031EDEE5C1009AC14D /* Line3Dchart.pbobjc.m */,
+				95197D041EDEE5C1009AC14D /* Linechart.pbobjc.h */,
+				95197D051EDEE5C1009AC14D /* Linechart.pbobjc.m */,
+				95197D061EDEE5C1009AC14D /* Linechartdetails.pbobjc.h */,
+				95197D071EDEE5C1009AC14D /* Linechartdetails.pbobjc.m */,
+				95197D081EDEE5C1009AC14D /* Linechartseries.pbobjc.h */,
+				95197D091EDEE5C1009AC14D /* Linechartseries.pbobjc.m */,
+				95197D0A1EDEE5C1009AC14D /* Linetype.pbobjc.h */,
+				95197D0B1EDEE5C1009AC14D /* Linetype.pbobjc.m */,
+				95197D0C1EDEE5C1009AC14D /* Locks.pbobjc.h */,
+				95197D0D1EDEE5C1009AC14D /* Locks.pbobjc.m */,
+				95197D0E1EDEE5C1009AC14D /* Manuallayout.pbobjc.h */,
+				95197D0F1EDEE5C1009AC14D /* Manuallayout.pbobjc.m */,
+				95197D101EDEE5C1009AC14D /* Margin.pbobjc.h */,
+				95197D111EDEE5C1009AC14D /* Margin.pbobjc.m */,
+				95197D121EDEE5C1009AC14D /* Marker.pbobjc.h */,
+				95197D131EDEE5C1009AC14D /* Marker.pbobjc.m */,
+				95197D141EDEE5C1009AC14D /* Master.pbobjc.h */,
+				95197D151EDEE5C1009AC14D /* Master.pbobjc.m */,
+				95197D161EDEE5C1009AC14D /* Nonvisualconnectordrawingprops.pbobjc.h */,
+				95197D171EDEE5C1009AC14D /* Nonvisualconnectordrawingprops.pbobjc.m */,
+				95197D181EDEE5C1009AC14D /* Nonvisualconnectorprops.pbobjc.h */,
+				95197D191EDEE5C1009AC14D /* Nonvisualconnectorprops.pbobjc.m */,
+				95197D1A1EDEE5C1009AC14D /* Nonvisualdrawingprops.pbobjc.h */,
+				95197D1B1EDEE5C1009AC14D /* Nonvisualdrawingprops.pbobjc.m */,
+				95197D1C1EDEE5C1009AC14D /* Nonvisualgroupshapedrawingprops.pbobjc.h */,
+				95197D1D1EDEE5C1009AC14D /* Nonvisualgroupshapedrawingprops.pbobjc.m */,
+				95197D1E1EDEE5C1009AC14D /* Nonvisualgroupshapeprops.pbobjc.h */,
+				95197D1F1EDEE5C1009AC14D /* Nonvisualgroupshapeprops.pbobjc.m */,
+				95197D201EDEE5C1009AC14D /* Nonvisualpicturedrawingprops.pbobjc.h */,
+				95197D211EDEE5C1009AC14D /* Nonvisualpicturedrawingprops.pbobjc.m */,
+				95197D221EDEE5C1009AC14D /* Nonvisualpictureprops.pbobjc.h */,
+				95197D231EDEE5C1009AC14D /* Nonvisualpictureprops.pbobjc.m */,
+				95197D241EDEE5C1009AC14D /* Nonvisualprops.pbobjc.h */,
+				95197D251EDEE5C1009AC14D /* Nonvisualprops.pbobjc.m */,
+				95197D261EDEE5C1009AC14D /* Nonvisualshapedrawingprops.pbobjc.h */,
+				95197D271EDEE5C1009AC14D /* Nonvisualshapedrawingprops.pbobjc.m */,
+				95197D281EDEE5C1009AC14D /* Nonvisualshapeprops.pbobjc.h */,
+				95197D291EDEE5C1009AC14D /* Nonvisualshapeprops.pbobjc.m */,
+				95197D2A1EDEE5C1009AC14D /* Numberreference.pbobjc.h */,
+				95197D2B1EDEE5C1009AC14D /* Numberreference.pbobjc.m */,
+				95197D2C1EDEE5C1009AC14D /* Offset.pbobjc.h */,
+				95197D2D1EDEE5C1009AC14D /* Offset.pbobjc.m */,
+				95197D2E1EDEE5C1009AC14D /* Pagesetup.pbobjc.h */,
+				95197D2F1EDEE5C1009AC14D /* Pagesetup.pbobjc.m */,
+				95197D301EDEE5C1009AC14D /* Paragraph.pbobjc.h */,
+				95197D311EDEE5C1009AC14D /* Paragraph.pbobjc.m */,
+				95197D321EDEE5C1009AC14D /* Parastyle.pbobjc.h */,
+				95197D331EDEE5C1009AC14D /* Parastyle.pbobjc.m */,
+				95197D341EDEE5C1009AC14D /* Pathobject.pbobjc.h */,
+				95197D351EDEE5C1009AC14D /* Pathobject.pbobjc.m */,
+				95197D361EDEE5C1009AC14D /* Picproperties.pbobjc.h */,
+				95197D371EDEE5C1009AC14D /* Picproperties.pbobjc.m */,
+				95197D381EDEE5C1009AC14D /* Picture.pbobjc.h */,
+				95197D391EDEE5C1009AC14D /* Picture.pbobjc.m */,
+				95197D3A1EDEE5C1009AC14D /* Pictureproperties.pbobjc.h */,
+				95197D3B1EDEE5C1009AC14D /* Pictureproperties.pbobjc.m */,
+				95197D3C1EDEE5C1009AC14D /* Picturevalue.pbobjc.h */,
+				95197D3D1EDEE5C1009AC14D /* Picturevalue.pbobjc.m */,
+				95197D3E1EDEE5C1009AC14D /* Pie3Dchart.pbobjc.h */,
+				95197D3F1EDEE5C1009AC14D /* Pie3Dchart.pbobjc.m */,
+				95197D401EDEE5C1009AC14D /* Piechart.pbobjc.h */,
+				95197D411EDEE5C1009AC14D /* Piechart.pbobjc.m */,
+				95197D421EDEE5C1009AC14D /* Piechartdetails.pbobjc.h */,
+				95197D431EDEE5C1009AC14D /* Piechartdetails.pbobjc.m */,
+				95197D441EDEE5C1009AC14D /* Placeholder.pbobjc.h */,
+				95197D451EDEE5C1009AC14D /* Placeholder.pbobjc.m */,
+				95197D461EDEE5C1009AC14D /* Plotarea.pbobjc.h */,
+				95197D471EDEE5C1009AC14D /* Plotarea.pbobjc.m */,
+				95197D481EDEE5C1009AC14D /* Portion.pbobjc.h */,
+				95197D491EDEE5C1009AC14D /* Portion.pbobjc.m */,
+				95197D4A1EDEE5C1009AC14D /* Portionprops.pbobjc.h */,
+				95197D4B1EDEE5C1009AC14D /* Portionprops.pbobjc.m */,
+				95197D4C1EDEE5C1009AC14D /* Position.pbobjc.h */,
+				95197D4D1EDEE5C1009AC14D /* Position.pbobjc.m */,
+				95197D4E1EDEE5C1009AC14D /* Positionelement.pbobjc.h */,
+				95197D4F1EDEE5C1009AC14D /* Positionelement.pbobjc.m */,
+				95197D501EDEE5C1009AC14D /* Preset.pbobjc.h */,
+				95197D511EDEE5C1009AC14D /* Preset.pbobjc.m */,
+				95197D521EDEE5C1009AC14D /* Preseteffects.pbobjc.h */,
+				95197D531EDEE5C1009AC14D /* Preseteffects.pbobjc.m */,
+				95197D541EDEE5C1009AC14D /* Presetprops.pbobjc.h */,
+				95197D551EDEE5C1009AC14D /* Presetprops.pbobjc.m */,
+				95197D561EDEE5C1009AC14D /* Presetshape.pbobjc.h */,
+				95197D571EDEE5C1009AC14D /* Presetshape.pbobjc.m */,
+				95197D581EDEE5C1009AC14D /* Presetshapegeometry.pbobjc.h */,
+				95197D591EDEE5C1009AC14D /* Presetshapegeometry.pbobjc.m */,
+				95197D5A1EDEE5C1009AC14D /* Properties.pbobjc.h */,
+				95197D5B1EDEE5C1009AC14D /* Properties.pbobjc.m */,
+				95197D5C1EDEE5C1009AC14D /* Protofielddefinition.pbobjc.h */,
+				95197D5D1EDEE5C1009AC14D /* Protofielddefinition.pbobjc.m */,
+				95197D5E1EDEE5C1009AC14D /* Reference.pbobjc.h */,
+				95197D5F1EDEE5C1009AC14D /* Reference.pbobjc.m */,
+				95197D601EDEE5C1009AC14D /* Relationship.pbobjc.h */,
+				95197D611EDEE5C1009AC14D /* Relationship.pbobjc.m */,
+				95197D621EDEE5C1009AC14D /* Representivepiechart.pbobjc.h */,
+				95197D631EDEE5C1009AC14D /* Representivepiechart.pbobjc.m */,
+				95197D641EDEE5C1009AC14D /* Scale.pbobjc.h */,
+				95197D651EDEE5C1009AC14D /* Scale.pbobjc.m */,
+				95197D661EDEE5C1009AC14D /* Scatterchart.pbobjc.h */,
+				95197D671EDEE5C1009AC14D /* Scatterchart.pbobjc.m */,
+				95197D681EDEE5C1009AC14D /* Scatterchartdetails.pbobjc.h */,
+				95197D691EDEE5C1009AC14D /* Scatterchartdetails.pbobjc.m */,
+				95197D6A1EDEE5C1009AC14D /* Seriesdetails.pbobjc.h */,
+				95197D6B1EDEE5C1009AC14D /* Seriesdetails.pbobjc.m */,
+				95197D6C1EDEE5C1009AC14D /* Seriestext.pbobjc.h */,
+				95197D6D1EDEE5C1009AC14D /* Seriestext.pbobjc.m */,
+				95197D6E1EDEE5C1009AC14D /* Seriesvalue.pbobjc.h */,
+				95197D6F1EDEE5C1009AC14D /* Seriesvalue.pbobjc.m */,
+				95197D701EDEE5C1009AC14D /* Shape.pbobjc.h */,
+				95197D711EDEE5C1009AC14D /* Shape.pbobjc.m */,
+				95197D721EDEE5C1009AC14D /* Shapeclips.pbobjc.h */,
+				95197D731EDEE5C1009AC14D /* Shapeclips.pbobjc.m */,
+				95197D741EDEE5C1009AC14D /* Shapegeometry.pbobjc.h */,
+				95197D751EDEE5C1009AC14D /* Shapegeometry.pbobjc.m */,
+				95197D761EDEE5C1009AC14D /* Shapenodetype.pbobjc.h */,
+				95197D771EDEE5C1009AC14D /* Shapenodetype.pbobjc.m */,
+				95197D781EDEE5C1009AC14D /* Shapeobject.pbobjc.h */,
+				95197D791EDEE5C1009AC14D /* Shapeobject.pbobjc.m */,
+				95197D7A1EDEE5C1009AC14D /* share */,
+				95197D7F1EDEE5C1009AC14D /* Showcast.pbobjc.h */,
+				95197D801EDEE5C1009AC14D /* Showcast.pbobjc.m */,
+				95197D811EDEE5C1009AC14D /* Slide.pbobjc.h */,
+				95197D821EDEE5C1009AC14D /* Slide.pbobjc.m */,
+				95197D831EDEE5C1009AC14D /* Slidedata.pbobjc.h */,
+				95197D841EDEE5C1009AC14D /* Slidedata.pbobjc.m */,
+				95197D851EDEE5C1009AC14D /* Slidenumberfield.pbobjc.h */,
+				95197D861EDEE5C1009AC14D /* Slidenumberfield.pbobjc.m */,
+				95197D871EDEE5C1009AC14D /* Slideplaceholders.pbobjc.h */,
+				95197D881EDEE5C1009AC14D /* Slideplaceholders.pbobjc.m */,
+				95197D891EDEE5C1009AC14D /* Slidetype.pbobjc.h */,
+				95197D8A1EDEE5C1009AC14D /* Slidetype.pbobjc.m */,
+				95197D8B1EDEE5C1009AC14D /* Stringreference.pbobjc.h */,
+				95197D8C1EDEE5C1009AC14D /* Stringreference.pbobjc.m */,
+				95197D8D1EDEE5C1009AC14D /* Stroke.pbobjc.h */,
+				95197D8E1EDEE5C1009AC14D /* Stroke.pbobjc.m */,
+				95197D8F1EDEE5C1009AC14D /* Strokescheme.pbobjc.h */,
+				95197D901EDEE5C1009AC14D /* Strokescheme.pbobjc.m */,
+				95197D911EDEE5C1009AC14D /* Styleanimation.pbobjc.h */,
+				95197D921EDEE5C1009AC14D /* Styleanimation.pbobjc.m */,
+				95197D931EDEE5C1009AC14D /* Table.pbobjc.h */,
+				95197D941EDEE5C1009AC14D /* Table.pbobjc.m */,
+				95197D951EDEE5C1009AC14D /* Tablecellborders.pbobjc.h */,
+				95197D961EDEE5C1009AC14D /* Tablecellborders.pbobjc.m */,
+				95197D971EDEE5C1009AC14D /* Tablecellstyle.pbobjc.h */,
+				95197D981EDEE5C1009AC14D /* Tablecellstyle.pbobjc.m */,
+				95197D991EDEE5C1009AC14D /* Tablestyle.pbobjc.h */,
+				95197D9A1EDEE5C1009AC14D /* Tablestyle.pbobjc.m */,
+				95197D9B1EDEE5C1009AC14D /* Textbody.pbobjc.h */,
+				95197D9C1EDEE5C1009AC14D /* Textbody.pbobjc.m */,
+				95197D9D1EDEE5C1009AC14D /* Textboxprops.pbobjc.h */,
+				95197D9E1EDEE5C1009AC14D /* Textboxprops.pbobjc.m */,
+				95197D9F1EDEE5C1009AC14D /* Textclips.pbobjc.h */,
+				95197DA01EDEE5C1009AC14D /* Textclips.pbobjc.m */,
+				95197DA11EDEE5C1009AC14D /* Textfield.pbobjc.h */,
+				95197DA21EDEE5C1009AC14D /* Textfield.pbobjc.m */,
+				95197DA31EDEE5C1009AC14D /* Textstyle.pbobjc.h */,
+				95197DA41EDEE5C1009AC14D /* Textstyle.pbobjc.m */,
+				95197DA51EDEE5C1009AC14D /* Theme.pbobjc.h */,
+				95197DA61EDEE5C1009AC14D /* Theme.pbobjc.m */,
+				95197DA71EDEE5C1009AC14D /* Themedefault.pbobjc.h */,
+				95197DA81EDEE5C1009AC14D /* Themedefault.pbobjc.m */,
+				95197DA91EDEE5C1009AC14D /* Themedifferences.pbobjc.h */,
+				95197DAA1EDEE5C1009AC14D /* Themedifferences.pbobjc.m */,
+				95197DAB1EDEE5C1009AC14D /* Themereference.pbobjc.h */,
+				95197DAC1EDEE5C1009AC14D /* Themereference.pbobjc.m */,
+				95197DAD1EDEE5C1009AC14D /* Themesupercede.pbobjc.h */,
+				95197DAE1EDEE5C1009AC14D /* Themesupercede.pbobjc.m */,
+				95197DAF1EDEE5C1009AC14D /* Titleelement.pbobjc.h */,
+				95197DB01EDEE5C1009AC14D /* Titleelement.pbobjc.m */,
+				95197DB11EDEE5C1009AC14D /* Transform.pbobjc.h */,
+				95197DB21EDEE5C1009AC14D /* Transform.pbobjc.m */,
+				95197DB31EDEE5C1009AC14D /* Transition.pbobjc.h */,
+				95197DB41EDEE5C1009AC14D /* Transition.pbobjc.m */,
+				95197DB51EDEE5C1009AC14D /* Verticalaligntype.pbobjc.h */,
+				95197DB61EDEE5C1009AC14D /* Verticalaligntype.pbobjc.m */,
+				95197DB71EDEE5C1009AC14D /* Viewprops.pbobjc.h */,
+				95197DB81EDEE5C1009AC14D /* Viewprops.pbobjc.m */,
+				95197DB91EDEE5C1009AC14D /* Whiteboard.pbobjc.h */,
+				95197DBA1EDEE5C1009AC14D /* Whiteboard.pbobjc.m */,
+			);
+			path = objcProto;
+			sourceTree = "<group>";
+		};
+		95197D7A1EDEE5C1009AC14D /* share */ = {
+			isa = PBXGroup;
+			children = (
+				95197D7B1EDEE5C1009AC14D /* Collaboration.pbobjc.h */,
+				95197D7C1EDEE5C1009AC14D /* Collaboration.pbobjc.m */,
+				95197D7D1EDEE5C1009AC14D /* Presetshapearray.pbobjc.h */,
+				95197D7E1EDEE5C1009AC14D /* Presetshapearray.pbobjc.m */,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		95197C7E1EDEE57B009AC14D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95197DBB1EDEE5C1009AC14D /* Animation.pbobjc.h in Headers */,
+				95197E5F1EDEE5C1009AC14D /* Piechart.pbobjc.h in Headers */,
+				95197E6F1EDEE5C1009AC14D /* Preset.pbobjc.h in Headers */,
+				95197EA31EDEE5C1009AC14D /* Slidenumberfield.pbobjc.h in Headers */,
+				95197EB31EDEE5C1009AC14D /* Tablecellborders.pbobjc.h in Headers */,
+				95197E9D1EDEE5C1009AC14D /* Showcast.pbobjc.h in Headers */,
+				95197ECF1EDEE5C1009AC14D /* Transform.pbobjc.h in Headers */,
+				95197E951EDEE5C1009AC14D /* Shapenodetype.pbobjc.h in Headers */,
+				95197C921EDEE57B009AC14D /* swiftFrameworkTrial.h in Headers */,
+				95197DD51EDEE5C1009AC14D /* Chart.pbobjc.h in Headers */,
+				95197E731EDEE5C1009AC14D /* Presetprops.pbobjc.h in Headers */,
+				95197DCD1EDEE5C1009AC14D /* Barchart.pbobjc.h in Headers */,
+				95197E0F1EDEE5C1009AC14D /* Fontref.pbobjc.h in Headers */,
+				95197ED31EDEE5C1009AC14D /* Verticalaligntype.pbobjc.h in Headers */,
+				95197E211EDEE5C1009AC14D /* Line3Dchart.pbobjc.h in Headers */,
+				95197EC51EDEE5C1009AC14D /* Themedefault.pbobjc.h in Headers */,
+				95197ED71EDEE5C1009AC14D /* Whiteboard.pbobjc.h in Headers */,
+				95197E391EDEE5C1009AC14D /* Nonvisualdrawingprops.pbobjc.h in Headers */,
+				95197E071EDEE5C1009AC14D /* Effects.pbobjc.h in Headers */,
+				95197E7F1EDEE5C1009AC14D /* Relationship.pbobjc.h in Headers */,
+				95197E431EDEE5C1009AC14D /* Nonvisualprops.pbobjc.h in Headers */,
+				95197DFB1EDEE5C1009AC14D /* Dimension.pbobjc.h in Headers */,
+				95197E511EDEE5C1009AC14D /* Parastyle.pbobjc.h in Headers */,
+				95197EB51EDEE5C1009AC14D /* Tablecellstyle.pbobjc.h in Headers */,
+				95197E971EDEE5C1009AC14D /* Shapeobject.pbobjc.h in Headers */,
+				95197DDB1EDEE5C1009AC14D /* Chartshape.pbobjc.h in Headers */,
+				95197E9F1EDEE5C1009AC14D /* Slide.pbobjc.h in Headers */,
+				95197E5D1EDEE5C1009AC14D /* Pie3Dchart.pbobjc.h in Headers */,
+				95197EBD1EDEE5C1009AC14D /* Textclips.pbobjc.h in Headers */,
+				95197E251EDEE5C1009AC14D /* Linechartdetails.pbobjc.h in Headers */,
+				95197E091EDEE5C1009AC14D /* Fill.pbobjc.h in Headers */,
+				95197E011EDEE5C1009AC14D /* Documentdata.pbobjc.h in Headers */,
+				95197EB91EDEE5C1009AC14D /* Textbody.pbobjc.h in Headers */,
+				95197E291EDEE5C1009AC14D /* Linetype.pbobjc.h in Headers */,
+				95197E6B1EDEE5C1009AC14D /* Position.pbobjc.h in Headers */,
+				95197E6D1EDEE5C1009AC14D /* Positionelement.pbobjc.h in Headers */,
+				95197E891EDEE5C1009AC14D /* Seriesdetails.pbobjc.h in Headers */,
+				95197E7B1EDEE5C1009AC14D /* Protofielddefinition.pbobjc.h in Headers */,
+				95197DC71EDEE5C1009AC14D /* Areachartseries.pbobjc.h in Headers */,
+				95197E171EDEE5C1009AC14D /* Grids.pbobjc.h in Headers */,
+				95197E3D1EDEE5C1009AC14D /* Nonvisualgroupshapeprops.pbobjc.h in Headers */,
+				95197DCB1EDEE5C1009AC14D /* Bar3Dchart.pbobjc.h in Headers */,
+				95197DFF1EDEE5C1009AC14D /* Document.pbobjc.h in Headers */,
+				95197E671EDEE5C1009AC14D /* Portion.pbobjc.h in Headers */,
+				95197DDD1EDEE5C1009AC14D /* Chartstyle.pbobjc.h in Headers */,
+				95197E271EDEE5C1009AC14D /* Linechartseries.pbobjc.h in Headers */,
+				95197EBB1EDEE5C1009AC14D /* Textboxprops.pbobjc.h in Headers */,
+				95197E231EDEE5C1009AC14D /* Linechart.pbobjc.h in Headers */,
+				95197E3B1EDEE5C1009AC14D /* Nonvisualgroupshapedrawingprops.pbobjc.h in Headers */,
+				95197E771EDEE5C1009AC14D /* Presetshapegeometry.pbobjc.h in Headers */,
+				95197E0B1EDEE5C1009AC14D /* Fillscheme.pbobjc.h in Headers */,
+				95197E451EDEE5C1009AC14D /* Nonvisualshapedrawingprops.pbobjc.h in Headers */,
+				95197DEB1EDEE5C1009AC14D /* Colortweaks.pbobjc.h in Headers */,
+				95197EC91EDEE5C1009AC14D /* Themereference.pbobjc.h in Headers */,
+				95197E691EDEE5C1009AC14D /* Portionprops.pbobjc.h in Headers */,
+				95197DFD1EDEE5C1009AC14D /* Displayanimation.pbobjc.h in Headers */,
+				95197E8D1EDEE5C1009AC14D /* Seriesvalue.pbobjc.h in Headers */,
+				95197E791EDEE5C1009AC14D /* Properties.pbobjc.h in Headers */,
+				95197ED51EDEE5C1009AC14D /* Viewprops.pbobjc.h in Headers */,
+				95197DE11EDEE5C1009AC14D /* Charttext.pbobjc.h in Headers */,
+				95197DF71EDEE5C1009AC14D /* Datapoint.pbobjc.h in Headers */,
+				95197EA11EDEE5C1009AC14D /* Slidedata.pbobjc.h in Headers */,
+				95197E3F1EDEE5C1009AC14D /* Nonvisualpicturedrawingprops.pbobjc.h in Headers */,
+				95197E611EDEE5C1009AC14D /* Piechartdetails.pbobjc.h in Headers */,
+				95197E8F1EDEE5C1009AC14D /* Shape.pbobjc.h in Headers */,
+				95197E571EDEE5C1009AC14D /* Picture.pbobjc.h in Headers */,
+				95197E131EDEE5C1009AC14D /* Fontscheme.pbobjc.h in Headers */,
+				95197E631EDEE5C1009AC14D /* Placeholder.pbobjc.h in Headers */,
+				95197E4F1EDEE5C1009AC14D /* Paragraph.pbobjc.h in Headers */,
+				95197DEF1EDEE5C1009AC14D /* Customfile.pbobjc.h in Headers */,
+				95197ECB1EDEE5C1009AC14D /* Themesupercede.pbobjc.h in Headers */,
+				95197E051EDEE5C1009AC14D /* Editorcompatible.pbobjc.h in Headers */,
+				95197E2D1EDEE5C1009AC14D /* Manuallayout.pbobjc.h in Headers */,
+				95197DF91EDEE5C1009AC14D /* Datetimefield.pbobjc.h in Headers */,
+				95197E311EDEE5C1009AC14D /* Marker.pbobjc.h in Headers */,
+				95197EAB1EDEE5C1009AC14D /* Stroke.pbobjc.h in Headers */,
+				95197E871EDEE5C1009AC14D /* Scatterchartdetails.pbobjc.h in Headers */,
+				95197E5B1EDEE5C1009AC14D /* Picturevalue.pbobjc.h in Headers */,
+				95197E811EDEE5C1009AC14D /* Representivepiechart.pbobjc.h in Headers */,
+				95197DC91EDEE5C1009AC14D /* Background.pbobjc.h in Headers */,
+				95197E1D1EDEE5C1009AC14D /* Horizontalaligntype.pbobjc.h in Headers */,
+				95197E331EDEE5C1009AC14D /* Master.pbobjc.h in Headers */,
+				95197E4B1EDEE5C1009AC14D /* Offset.pbobjc.h in Headers */,
+				95197DE71EDEE5C1009AC14D /* Colormap.pbobjc.h in Headers */,
+				95197E551EDEE5C1009AC14D /* Picproperties.pbobjc.h in Headers */,
+				95197DD11EDEE5C1009AC14D /* Bubblechart.pbobjc.h in Headers */,
+				95197E491EDEE5C1009AC14D /* Numberreference.pbobjc.h in Headers */,
+				95197E371EDEE5C1009AC14D /* Nonvisualconnectorprops.pbobjc.h in Headers */,
+				95197E1F1EDEE5C1009AC14D /* Hyperlink.pbobjc.h in Headers */,
+				95197E471EDEE5C1009AC14D /* Nonvisualshapeprops.pbobjc.h in Headers */,
+				95197EB11EDEE5C1009AC14D /* Table.pbobjc.h in Headers */,
+				95197E591EDEE5C1009AC14D /* Pictureproperties.pbobjc.h in Headers */,
+				95197E9B1EDEE5C1009AC14D /* Presetshapearray.pbobjc.h in Headers */,
+				95197DDF1EDEE5C1009AC14D /* Chartstyles.pbobjc.h in Headers */,
+				95197DE31EDEE5C1009AC14D /* Clipboard.pbobjc.h in Headers */,
+				95197DC51EDEE5C1009AC14D /* Areachartdetails.pbobjc.h in Headers */,
+				95197E651EDEE5C1009AC14D /* Plotarea.pbobjc.h in Headers */,
+				95197ED11EDEE5C1009AC14D /* Transition.pbobjc.h in Headers */,
+				95197E911EDEE5C1009AC14D /* Shapeclips.pbobjc.h in Headers */,
+				95197E991EDEE5C1009AC14D /* Collaboration.pbobjc.h in Headers */,
+				95197DBF1EDEE5C1009AC14D /* Animationlist.pbobjc.h in Headers */,
+				95197DF31EDEE5C1009AC14D /* Datalabels.pbobjc.h in Headers */,
+				95197E111EDEE5C1009AC14D /* Fontreference.pbobjc.h in Headers */,
+				95197DF51EDEE5C1009AC14D /* Datamarker.pbobjc.h in Headers */,
+				95197E851EDEE5C1009AC14D /* Scatterchart.pbobjc.h in Headers */,
+				95197DE51EDEE5C1009AC14D /* Color.pbobjc.h in Headers */,
+				95197ECD1EDEE5C1009AC14D /* Titleelement.pbobjc.h in Headers */,
+				95197EAF1EDEE5C1009AC14D /* Styleanimation.pbobjc.h in Headers */,
+				95197EBF1EDEE5C1009AC14D /* Textfield.pbobjc.h in Headers */,
+				95197EB71EDEE5C1009AC14D /* Tablestyle.pbobjc.h in Headers */,
+				95197DC31EDEE5C1009AC14D /* Areachart.pbobjc.h in Headers */,
+				95197EC11EDEE5C1009AC14D /* Textstyle.pbobjc.h in Headers */,
+				95197E4D1EDEE5C1009AC14D /* Pagesetup.pbobjc.h in Headers */,
+				95197E191EDEE5C1009AC14D /* Guide.pbobjc.h in Headers */,
+				95197EA51EDEE5C1009AC14D /* Slideplaceholders.pbobjc.h in Headers */,
+				95197DCF1EDEE5C1009AC14D /* Barchartdetails.pbobjc.h in Headers */,
+				95197EA91EDEE5C1009AC14D /* Stringreference.pbobjc.h in Headers */,
+				95197DF11EDEE5C1009AC14D /* Customgeometry.pbobjc.h in Headers */,
+				95197E411EDEE5C1009AC14D /* Nonvisualpictureprops.pbobjc.h in Headers */,
+				95197E531EDEE5C1009AC14D /* Pathobject.pbobjc.h in Headers */,
+				95197DD91EDEE5C1009AC14D /* Chartline.pbobjc.h in Headers */,
+				95197DED1EDEE5C1009AC14D /* Connector.pbobjc.h in Headers */,
+				95197E8B1EDEE5C1009AC14D /* Seriestext.pbobjc.h in Headers */,
+				95197E2F1EDEE5C1009AC14D /* Margin.pbobjc.h in Headers */,
+				95197E351EDEE5C1009AC14D /* Nonvisualconnectordrawingprops.pbobjc.h in Headers */,
+				95197E031EDEE5C1009AC14D /* Doughnutchart.pbobjc.h in Headers */,
+				95197EC71EDEE5C1009AC14D /* Themedifferences.pbobjc.h in Headers */,
+				95197DD31EDEE5C1009AC14D /* Category.pbobjc.h in Headers */,
+				95197E2B1EDEE5C1009AC14D /* Locks.pbobjc.h in Headers */,
+				95197DD71EDEE5C1009AC14D /* Chartaxis.pbobjc.h in Headers */,
+				95197E7D1EDEE5C1009AC14D /* Reference.pbobjc.h in Headers */,
+				95197DC11EDEE5C1009AC14D /* Area3Dchart.pbobjc.h in Headers */,
+				95197E751EDEE5C1009AC14D /* Presetshape.pbobjc.h in Headers */,
+				95197E151EDEE5C1009AC14D /* Graphicframe.pbobjc.h in Headers */,
+				95197E831EDEE5C1009AC14D /* Scale.pbobjc.h in Headers */,
+				95197EA71EDEE5C1009AC14D /* Slidetype.pbobjc.h in Headers */,
+				95197E711EDEE5C1009AC14D /* Preseteffects.pbobjc.h in Headers */,
+				95197DBD1EDEE5C1009AC14D /* Animationdata.pbobjc.h in Headers */,
+				95197DE91EDEE5C1009AC14D /* Colorscheme.pbobjc.h in Headers */,
+				95197EAD1EDEE5C1009AC14D /* Strokescheme.pbobjc.h in Headers */,
+				95197E0D1EDEE5C1009AC14D /* Font.pbobjc.h in Headers */,
+				95197EC31EDEE5C1009AC14D /* Theme.pbobjc.h in Headers */,
+				95197E1B1EDEE5C1009AC14D /* Hidemaster.pbobjc.h in Headers */,
+				95197E931EDEE5C1009AC14D /* Shapegeometry.pbobjc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		95197C801EDEE57B009AC14D /* swiftFrameworkTrial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95197C951EDEE57B009AC14D /* Build configuration list for PBXNativeTarget "swiftFrameworkTrial" */;
+			buildPhases = (
+				559CF05C264B379EB9454D42 /* [CP] Check Pods Manifest.lock */,
+				95197C7C1EDEE57B009AC14D /* Sources */,
+				95197C7D1EDEE57B009AC14D /* Frameworks */,
+				95197C7E1EDEE57B009AC14D /* Headers */,
+				95197C7F1EDEE57B009AC14D /* Resources */,
+				AACD61BA9480DEDA105CB4CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swiftFrameworkTrial;
+			productName = swiftFrameworkTrial;
+			productReference = 95197C811EDEE57B009AC14D /* swiftFrameworkTrial.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95197C891EDEE57B009AC14D /* swiftFrameworkTrialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95197C981EDEE57B009AC14D /* Build configuration list for PBXNativeTarget "swiftFrameworkTrialTests" */;
+			buildPhases = (
+				95197C861EDEE57B009AC14D /* Sources */,
+				95197C871EDEE57B009AC14D /* Frameworks */,
+				95197C881EDEE57B009AC14D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95197C8D1EDEE57B009AC14D /* PBXTargetDependency */,
+			);
+			name = swiftFrameworkTrialTests;
+			productName = swiftFrameworkTrialTests;
+			productReference = 95197C8A1EDEE57B009AC14D /* swiftFrameworkTrialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95197C781EDEE57B009AC14D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Padma Sravani Bhavanasi";
+				TargetAttributes = {
+					95197C801EDEE57B009AC14D = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = TZ824L8Y37;
+						ProvisioningStyle = Automatic;
+					};
+					95197C891EDEE57B009AC14D = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = TZ824L8Y37;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 95197C7B1EDEE57B009AC14D /* Build configuration list for PBXProject "swiftFrameworkTrial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95197C771EDEE57B009AC14D;
+			productRefGroup = 95197C821EDEE57B009AC14D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95197C801EDEE57B009AC14D /* swiftFrameworkTrial */,
+				95197C891EDEE57B009AC14D /* swiftFrameworkTrialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95197C7F1EDEE57B009AC14D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95197C881EDEE57B009AC14D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		559CF05C264B379EB9454D42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AACD61BA9480DEDA105CB4CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiftFrameworkTrial/Pods-swiftFrameworkTrial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95197C7C1EDEE57B009AC14D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95197DFA1EDEE5C1009AC14D /* Datetimefield.pbobjc.m in Sources */,
+				95197E8E1EDEE5C1009AC14D /* Seriesvalue.pbobjc.m in Sources */,
+				95197E7C1EDEE5C1009AC14D /* Protofielddefinition.pbobjc.m in Sources */,
+				95197E821EDEE5C1009AC14D /* Representivepiechart.pbobjc.m in Sources */,
+				95197E4A1EDEE5C1009AC14D /* Numberreference.pbobjc.m in Sources */,
+				95197DEC1EDEE5C1009AC14D /* Colortweaks.pbobjc.m in Sources */,
+				95197E7E1EDEE5C1009AC14D /* Reference.pbobjc.m in Sources */,
+				95197E421EDEE5C1009AC14D /* Nonvisualpictureprops.pbobjc.m in Sources */,
+				95197E681EDEE5C1009AC14D /* Portion.pbobjc.m in Sources */,
+				95197E8A1EDEE5C1009AC14D /* Seriesdetails.pbobjc.m in Sources */,
+				95197E441EDEE5C1009AC14D /* Nonvisualprops.pbobjc.m in Sources */,
+				95197EA81EDEE5C1009AC14D /* Slidetype.pbobjc.m in Sources */,
+				95197EA41EDEE5C1009AC14D /* Slidenumberfield.pbobjc.m in Sources */,
+				95197E361EDEE5C1009AC14D /* Nonvisualconnectordrawingprops.pbobjc.m in Sources */,
+				95197DFE1EDEE5C1009AC14D /* Displayanimation.pbobjc.m in Sources */,
+				95197EA61EDEE5C1009AC14D /* Slideplaceholders.pbobjc.m in Sources */,
+				95197DC81EDEE5C1009AC14D /* Areachartseries.pbobjc.m in Sources */,
+				95197EBC1EDEE5C1009AC14D /* Textboxprops.pbobjc.m in Sources */,
+				95197DFC1EDEE5C1009AC14D /* Dimension.pbobjc.m in Sources */,
+				95197E4C1EDEE5C1009AC14D /* Offset.pbobjc.m in Sources */,
+				95197E0E1EDEE5C1009AC14D /* Font.pbobjc.m in Sources */,
+				95197E621EDEE5C1009AC14D /* Piechartdetails.pbobjc.m in Sources */,
+				95197E861EDEE5C1009AC14D /* Scatterchart.pbobjc.m in Sources */,
+				95197E841EDEE5C1009AC14D /* Scale.pbobjc.m in Sources */,
+				95197EAA1EDEE5C1009AC14D /* Stringreference.pbobjc.m in Sources */,
+				95197E321EDEE5C1009AC14D /* Marker.pbobjc.m in Sources */,
+				95197E5A1EDEE5C1009AC14D /* Pictureproperties.pbobjc.m in Sources */,
+				95197DD81EDEE5C1009AC14D /* Chartaxis.pbobjc.m in Sources */,
+				95197E6E1EDEE5C1009AC14D /* Positionelement.pbobjc.m in Sources */,
+				95197E9E1EDEE5C1009AC14D /* Showcast.pbobjc.m in Sources */,
+				95197EBA1EDEE5C1009AC14D /* Textbody.pbobjc.m in Sources */,
+				95197EBE1EDEE5C1009AC14D /* Textclips.pbobjc.m in Sources */,
+				95197E001EDEE5C1009AC14D /* Document.pbobjc.m in Sources */,
+				95197E0C1EDEE5C1009AC14D /* Fillscheme.pbobjc.m in Sources */,
+				95197EB61EDEE5C1009AC14D /* Tablecellstyle.pbobjc.m in Sources */,
+				95197DD61EDEE5C1009AC14D /* Chart.pbobjc.m in Sources */,
+				95197E341EDEE5C1009AC14D /* Master.pbobjc.m in Sources */,
+				95197DE81EDEE5C1009AC14D /* Colormap.pbobjc.m in Sources */,
+				95197E5E1EDEE5C1009AC14D /* Pie3Dchart.pbobjc.m in Sources */,
+				95197E761EDEE5C1009AC14D /* Presetshape.pbobjc.m in Sources */,
+				95197DBC1EDEE5C1009AC14D /* Animation.pbobjc.m in Sources */,
+				95197EC21EDEE5C1009AC14D /* Textstyle.pbobjc.m in Sources */,
+				95197DE41EDEE5C1009AC14D /* Clipboard.pbobjc.m in Sources */,
+				95197E461EDEE5C1009AC14D /* Nonvisualshapedrawingprops.pbobjc.m in Sources */,
+				95197DC41EDEE5C1009AC14D /* Areachart.pbobjc.m in Sources */,
+				95197DF01EDEE5C1009AC14D /* Customfile.pbobjc.m in Sources */,
+				95197EC61EDEE5C1009AC14D /* Themedefault.pbobjc.m in Sources */,
+				95197E501EDEE5C1009AC14D /* Paragraph.pbobjc.m in Sources */,
+				95197E741EDEE5C1009AC14D /* Presetprops.pbobjc.m in Sources */,
+				95197E4E1EDEE5C1009AC14D /* Pagesetup.pbobjc.m in Sources */,
+				95197E281EDEE5C1009AC14D /* Linechartseries.pbobjc.m in Sources */,
+				95197E921EDEE5C1009AC14D /* Shapeclips.pbobjc.m in Sources */,
+				95197E061EDEE5C1009AC14D /* Editorcompatible.pbobjc.m in Sources */,
+				95197DEE1EDEE5C1009AC14D /* Connector.pbobjc.m in Sources */,
+				95197E561EDEE5C1009AC14D /* Picproperties.pbobjc.m in Sources */,
+				95197ED41EDEE5C1009AC14D /* Verticalaligntype.pbobjc.m in Sources */,
+				95197ED61EDEE5C1009AC14D /* Viewprops.pbobjc.m in Sources */,
+				95197EAE1EDEE5C1009AC14D /* Strokescheme.pbobjc.m in Sources */,
+				95197ECC1EDEE5C1009AC14D /* Themesupercede.pbobjc.m in Sources */,
+				95197DDC1EDEE5C1009AC14D /* Chartshape.pbobjc.m in Sources */,
+				95197DE21EDEE5C1009AC14D /* Charttext.pbobjc.m in Sources */,
+				95197E161EDEE5C1009AC14D /* Graphicframe.pbobjc.m in Sources */,
+				95197DE61EDEE5C1009AC14D /* Color.pbobjc.m in Sources */,
+				95197E6A1EDEE5C1009AC14D /* Portionprops.pbobjc.m in Sources */,
+				95197E3E1EDEE5C1009AC14D /* Nonvisualgroupshapeprops.pbobjc.m in Sources */,
+				95197DE01EDEE5C1009AC14D /* Chartstyles.pbobjc.m in Sources */,
+				95197EB01EDEE5C1009AC14D /* Styleanimation.pbobjc.m in Sources */,
+				95197E9C1EDEE5C1009AC14D /* Presetshapearray.pbobjc.m in Sources */,
+				95197DDA1EDEE5C1009AC14D /* Chartline.pbobjc.m in Sources */,
+				95197ED21EDEE5C1009AC14D /* Transition.pbobjc.m in Sources */,
+				95197EA21EDEE5C1009AC14D /* Slidedata.pbobjc.m in Sources */,
+				95197EAC1EDEE5C1009AC14D /* Stroke.pbobjc.m in Sources */,
+				95197E381EDEE5C1009AC14D /* Nonvisualconnectorprops.pbobjc.m in Sources */,
+				95197E901EDEE5C1009AC14D /* Shape.pbobjc.m in Sources */,
+				95197E081EDEE5C1009AC14D /* Effects.pbobjc.m in Sources */,
+				95197E261EDEE5C1009AC14D /* Linechartdetails.pbobjc.m in Sources */,
+				95197E9A1EDEE5C1009AC14D /* Collaboration.pbobjc.m in Sources */,
+				95197E881EDEE5C1009AC14D /* Scatterchartdetails.pbobjc.m in Sources */,
+				95197DDE1EDEE5C1009AC14D /* Chartstyle.pbobjc.m in Sources */,
+				95197DD21EDEE5C1009AC14D /* Bubblechart.pbobjc.m in Sources */,
+				95197E641EDEE5C1009AC14D /* Placeholder.pbobjc.m in Sources */,
+				95197E941EDEE5C1009AC14D /* Shapegeometry.pbobjc.m in Sources */,
+				95197E6C1EDEE5C1009AC14D /* Position.pbobjc.m in Sources */,
+				95197E2A1EDEE5C1009AC14D /* Linetype.pbobjc.m in Sources */,
+				95197E141EDEE5C1009AC14D /* Fontscheme.pbobjc.m in Sources */,
+				95197E3C1EDEE5C1009AC14D /* Nonvisualgroupshapedrawingprops.pbobjc.m in Sources */,
+				95197DBE1EDEE5C1009AC14D /* Animationdata.pbobjc.m in Sources */,
+				95197E781EDEE5C1009AC14D /* Presetshapegeometry.pbobjc.m in Sources */,
+				95197E301EDEE5C1009AC14D /* Margin.pbobjc.m in Sources */,
+				95197ED01EDEE5C1009AC14D /* Transform.pbobjc.m in Sources */,
+				95197E961EDEE5C1009AC14D /* Shapenodetype.pbobjc.m in Sources */,
+				95197E181EDEE5C1009AC14D /* Grids.pbobjc.m in Sources */,
+				95197DCA1EDEE5C1009AC14D /* Background.pbobjc.m in Sources */,
+				95197EC01EDEE5C1009AC14D /* Textfield.pbobjc.m in Sources */,
+				95197E481EDEE5C1009AC14D /* Nonvisualshapeprops.pbobjc.m in Sources */,
+				95197E801EDEE5C1009AC14D /* Relationship.pbobjc.m in Sources */,
+				95197E981EDEE5C1009AC14D /* Shapeobject.pbobjc.m in Sources */,
+				95197E5C1EDEE5C1009AC14D /* Picturevalue.pbobjc.m in Sources */,
+				95197E721EDEE5C1009AC14D /* Preseteffects.pbobjc.m in Sources */,
+				95197EB41EDEE5C1009AC14D /* Tablecellborders.pbobjc.m in Sources */,
+				95197DF21EDEE5C1009AC14D /* Customgeometry.pbobjc.m in Sources */,
+				95197DF41EDEE5C1009AC14D /* Datalabels.pbobjc.m in Sources */,
+				95197DCE1EDEE5C1009AC14D /* Barchart.pbobjc.m in Sources */,
+				95197DF81EDEE5C1009AC14D /* Datapoint.pbobjc.m in Sources */,
+				95197E521EDEE5C1009AC14D /* Parastyle.pbobjc.m in Sources */,
+				95197E201EDEE5C1009AC14D /* Hyperlink.pbobjc.m in Sources */,
+				95197EB81EDEE5C1009AC14D /* Tablestyle.pbobjc.m in Sources */,
+				95197E0A1EDEE5C1009AC14D /* Fill.pbobjc.m in Sources */,
+				95197E581EDEE5C1009AC14D /* Picture.pbobjc.m in Sources */,
+				95197E021EDEE5C1009AC14D /* Documentdata.pbobjc.m in Sources */,
+				95197DEA1EDEE5C1009AC14D /* Colorscheme.pbobjc.m in Sources */,
+				95197E1A1EDEE5C1009AC14D /* Guide.pbobjc.m in Sources */,
+				95197E701EDEE5C1009AC14D /* Preset.pbobjc.m in Sources */,
+				95197ED81EDEE5C1009AC14D /* Whiteboard.pbobjc.m in Sources */,
+				95197E8C1EDEE5C1009AC14D /* Seriestext.pbobjc.m in Sources */,
+				95197EC41EDEE5C1009AC14D /* Theme.pbobjc.m in Sources */,
+				95197E1E1EDEE5C1009AC14D /* Horizontalaligntype.pbobjc.m in Sources */,
+				95197DD01EDEE5C1009AC14D /* Barchartdetails.pbobjc.m in Sources */,
+				95197DCC1EDEE5C1009AC14D /* Bar3Dchart.pbobjc.m in Sources */,
+				95197EB21EDEE5C1009AC14D /* Table.pbobjc.m in Sources */,
+				95197E541EDEE5C1009AC14D /* Pathobject.pbobjc.m in Sources */,
+				95197ECE1EDEE5C1009AC14D /* Titleelement.pbobjc.m in Sources */,
+				95197E1C1EDEE5C1009AC14D /* Hidemaster.pbobjc.m in Sources */,
+				95197E601EDEE5C1009AC14D /* Piechart.pbobjc.m in Sources */,
+				95197E401EDEE5C1009AC14D /* Nonvisualpicturedrawingprops.pbobjc.m in Sources */,
+				95197DD41EDEE5C1009AC14D /* Category.pbobjc.m in Sources */,
+				95197E241EDEE5C1009AC14D /* Linechart.pbobjc.m in Sources */,
+				95197E661EDEE5C1009AC14D /* Plotarea.pbobjc.m in Sources */,
+				95197E2E1EDEE5C1009AC14D /* Manuallayout.pbobjc.m in Sources */,
+				95197E3A1EDEE5C1009AC14D /* Nonvisualdrawingprops.pbobjc.m in Sources */,
+				95197E2C1EDEE5C1009AC14D /* Locks.pbobjc.m in Sources */,
+				95197DF61EDEE5C1009AC14D /* Datamarker.pbobjc.m in Sources */,
+				95197DC61EDEE5C1009AC14D /* Areachartdetails.pbobjc.m in Sources */,
+				95197E7A1EDEE5C1009AC14D /* Properties.pbobjc.m in Sources */,
+				95197E221EDEE5C1009AC14D /* Line3Dchart.pbobjc.m in Sources */,
+				95197DC01EDEE5C1009AC14D /* Animationlist.pbobjc.m in Sources */,
+				95197E041EDEE5C1009AC14D /* Doughnutchart.pbobjc.m in Sources */,
+				95197ECA1EDEE5C1009AC14D /* Themereference.pbobjc.m in Sources */,
+				95197E121EDEE5C1009AC14D /* Fontreference.pbobjc.m in Sources */,
+				95197E101EDEE5C1009AC14D /* Fontref.pbobjc.m in Sources */,
+				95197EC81EDEE5C1009AC14D /* Themedifferences.pbobjc.m in Sources */,
+				95197EA01EDEE5C1009AC14D /* Slide.pbobjc.m in Sources */,
+				95197DC21EDEE5C1009AC14D /* Area3Dchart.pbobjc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95197C861EDEE57B009AC14D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95197C901EDEE57B009AC14D /* swiftFrameworkTrialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95197C8D1EDEE57B009AC14D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95197C801EDEE57B009AC14D /* swiftFrameworkTrial */;
+			targetProxy = 95197C8C1EDEE57B009AC14D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		95197C931EDEE57B009AC14D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		95197C941EDEE57B009AC14D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95197C961EDEE57B009AC14D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E8DFC9668BED5B2DE397894 /* Pods-swiftFrameworkTrial.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TZ824L8Y37;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = swiftFrameworkTrial/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.zohoshow.swiftFrameworkTrial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		95197C971EDEE57B009AC14D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68ED9FF945C06915EDDC6ED /* Pods-swiftFrameworkTrial.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TZ824L8Y37;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = swiftFrameworkTrial/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.zohoshow.swiftFrameworkTrial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		95197C991EDEE57B009AC14D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TZ824L8Y37;
+				INFOPLIST_FILE = swiftFrameworkTrialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.zohoshow.swiftFrameworkTrialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		95197C9A1EDEE57B009AC14D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TZ824L8Y37;
+				INFOPLIST_FILE = swiftFrameworkTrialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoho.zohoshow.swiftFrameworkTrialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95197C7B1EDEE57B009AC14D /* Build configuration list for PBXProject "swiftFrameworkTrial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95197C931EDEE57B009AC14D /* Debug */,
+				95197C941EDEE57B009AC14D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95197C951EDEE57B009AC14D /* Build configuration list for PBXNativeTarget "swiftFrameworkTrial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95197C961EDEE57B009AC14D /* Debug */,
+				95197C971EDEE57B009AC14D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95197C981EDEE57B009AC14D /* Build configuration list for PBXNativeTarget "swiftFrameworkTrialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95197C991EDEE57B009AC14D /* Debug */,
+				95197C9A1EDEE57B009AC14D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95197C781EDEE57B009AC14D /* Project object */;
+}
