@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class trialClass: NSObject {
+@objc class trialClass: NSObject {
     static func getTheValue() -> Int{
         return 5;
     }
