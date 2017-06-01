@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "frameworkPod"
-  s.version      = "0.1.0"
+  s.version      = "0.2.1"
   s.summary      = "framework pod with proto"
 
   s.license          = { :type => "MIT", :text=> <<-LICENSE
@@ -43,14 +43,13 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
   s.frameworks = 'UIKit'
   s.module_name = 'frameworkPod'
-  s.requires_arc = false
-s.pod_target_xcconfig = {
-'GCC_PREPROCESSOR_DEFINITIONS[config=Debug]' => 'GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1',
-}
+#s.requires_arc = false
+  s.pod_target_xcconfig = {
+#'GCC_PREPROCESSOR_DEFINITIONS[config=Debug]' => 'GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1',
+  }
 
-#s.public_header_files = 'swiftFrameworkTrial.h'
-  s.source       = { :git => "https://github.com/Padma23/framworkPod.git", :commit => "ca3eef1031c4e377c3de0f1cca4827a516c87f1d" }
+  s.source       = { :git => "https://github.com/Padma23/framworkPod.git", :commit => "4b2a5497e794d0eed7a2bb276864a9ceaa3ce130" }
   s.source_files = 'swiftFrameworkTrial/swiftFrameworkTrial.h','swiftFrameworkTrial/objcProto/*.h','swiftFrameworkTrial/objcProto/share/*.h','swiftFrameworkTrial/objcProto/*.m','swiftFrameworkTrial/objcProto/share/*.m','swiftFrameworkTrial/*.swift'
-s.dependency 'Protobuf'
+  s.dependency 'Protobuf'
 
 end
