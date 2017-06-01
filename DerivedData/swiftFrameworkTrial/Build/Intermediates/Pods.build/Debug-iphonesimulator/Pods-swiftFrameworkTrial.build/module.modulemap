@@ -1,6 +1,0 @@
-framework module Pods_swiftFrameworkTrial {
-  umbrella header "Pods-swiftFrameworkTrial-umbrella.h"
-
-  export *
-  module * { export * }
-}

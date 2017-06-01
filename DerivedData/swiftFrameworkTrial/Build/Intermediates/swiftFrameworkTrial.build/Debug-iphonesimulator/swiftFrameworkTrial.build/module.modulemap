@@ -1,6 +1,0 @@
-framework module swiftFrameworkTrial {
-  umbrella header "swiftFrameworkTrial.h"
-
-  export *
-  module * { export * }
-}
