@@ -298,6 +298,8 @@
 		95197ED71EDEE5C1009AC14D /* Whiteboard.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 95197DB91EDEE5C1009AC14D /* Whiteboard.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95197ED81EDEE5C1009AC14D /* Whiteboard.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 95197DBA1EDEE5C1009AC14D /* Whiteboard.pbobjc.m */; };
 		951C924D1EE00402000BECEA /* trialClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951C924C1EE00402000BECEA /* trialClass.swift */; };
+		951C92501EE02834000BECEA /* view1.h in Headers */ = {isa = PBXBuildFile; fileRef = 951C924E1EE02834000BECEA /* view1.h */; };
+		951C92511EE02834000BECEA /* view1.m in Sources */ = {isa = PBXBuildFile; fileRef = 951C924F1EE02834000BECEA /* view1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -606,6 +608,8 @@
 		95197DB91EDEE5C1009AC14D /* Whiteboard.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Whiteboard.pbobjc.h; sourceTree = "<group>"; };
 		95197DBA1EDEE5C1009AC14D /* Whiteboard.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Whiteboard.pbobjc.m; sourceTree = "<group>"; };
 		951C924C1EE00402000BECEA /* trialClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = trialClass.swift; sourceTree = "<group>"; };
+		951C924E1EE02834000BECEA /* view1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = view1.h; sourceTree = "<group>"; };
+		951C924F1EE02834000BECEA /* view1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = view1.m; sourceTree = "<group>"; };
 		B9E1969009ACAEE6D6AB5DA1 /* Pods-swiftFrameworkTrial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftFrameworkTrial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftFrameworkTrial/Pods-swiftFrameworkTrial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -662,6 +666,8 @@
 			isa = PBXGroup;
 			children = (
 				951C924C1EE00402000BECEA /* trialClass.swift */,
+				951C924E1EE02834000BECEA /* view1.h */,
+				951C924F1EE02834000BECEA /* view1.m */,
 				95197C9B1EDEE5C1009AC14D /* objcProto */,
 				95197C841EDEE57B009AC14D /* swiftFrameworkTrial.h */,
 				95197C851EDEE57B009AC14D /* Info.plist */,
@@ -1057,6 +1063,7 @@
 				95197DF71EDEE5C1009AC14D /* Datapoint.pbobjc.h in Headers */,
 				95197EA11EDEE5C1009AC14D /* Slidedata.pbobjc.h in Headers */,
 				95197E3F1EDEE5C1009AC14D /* Nonvisualpicturedrawingprops.pbobjc.h in Headers */,
+				951C92501EE02834000BECEA /* view1.h in Headers */,
 				95197E611EDEE5C1009AC14D /* Piechartdetails.pbobjc.h in Headers */,
 				95197E8F1EDEE5C1009AC14D /* Shape.pbobjc.h in Headers */,
 				95197E571EDEE5C1009AC14D /* Picture.pbobjc.h in Headers */,
@@ -1406,6 +1413,7 @@
 				95197E401EDEE5C1009AC14D /* Nonvisualpicturedrawingprops.pbobjc.m in Sources */,
 				95197DD41EDEE5C1009AC14D /* Category.pbobjc.m in Sources */,
 				95197E241EDEE5C1009AC14D /* Linechart.pbobjc.m in Sources */,
+				951C92511EE02834000BECEA /* view1.m in Sources */,
 				95197E661EDEE5C1009AC14D /* Plotarea.pbobjc.m in Sources */,
 				95197E2E1EDEE5C1009AC14D /* Manuallayout.pbobjc.m in Sources */,
 				95197E3A1EDEE5C1009AC14D /* Nonvisualdrawingprops.pbobjc.m in Sources */,
