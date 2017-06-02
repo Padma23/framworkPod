@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.51 clang-802.0.41)"
+options: "88a5213f0bce779e29496bb0d5ece034"
+build_time: [549698664, 15170000]
+inputs:
+  "/Users/padma-2905/Documents/Libraries/swiftFrameworkTrial/swiftFrameworkTrial/trying.swift": [549698243, 0]
+  "/Users/padma-2905/Documents/Libraries/swiftFrameworkTrial/swiftFrameworkTrial/trialClass.swift": [549698294, 0]
