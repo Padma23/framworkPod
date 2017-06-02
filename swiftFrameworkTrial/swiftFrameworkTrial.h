@@ -17,6 +17,7 @@ FOUNDATION_EXPORT const unsigned char swiftFrameworkTrialVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <swiftFrameworkTrial/PublicHeader.h>
 
 //#import <swiftFrameworkTrial/swiftFrameworkTrial-Swift.h>
+
 #import "Presetshapearray.pbobjc.h"
 #import "Animation.pbobjc.h"
 #import "Animationdata.pbobjc.h"

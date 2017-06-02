@@ -1,14 +1,14 @@
 //
-//  view1.m
+//  check1.m
 //  swiftFrameworkTrial
 //
-//  Created by Padma Sravani Bhavanasi on 01/06/17.
+//  Created by Padma Sravani Bhavanasi on 02/06/17.
 //  Copyright © 2017 Padma Sravani Bhavanasi. All rights reserved.
 //
 
-#import "view1.h"
+#import "check1.h"
 
-@implementation view1
+@implementation check1
 
 /*
 // Only override drawRect: if you perform custom drawing.

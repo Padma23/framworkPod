@@ -8,7 +8,7 @@
 
 import Foundation
 @objc public class trialClass: NSObject {
-    static func getTheValue() -> Int{
+    static public func getTheValue() -> Int{
         return 5;
     }
 }
